@@ -1,0 +1,2 @@
+#!/bin/sh
+xcrun -sdk macosx swiftc *.swift -I CommonCrypto -o main
