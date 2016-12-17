@@ -89,7 +89,7 @@
 				5070D0631E052B6500738B6F /* CommonRings.swift */,
 				5070D0651E052B8A00738B6F /* CommonFields.swift */,
 			);
-			name = Algebra;
+			path = Algebra;
 			sourceTree = "<group>";
 		};
 		OBJ_20 /* Tests */ = {
