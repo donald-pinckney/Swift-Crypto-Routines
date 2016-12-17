@@ -49,6 +49,34 @@ struct Matrix<R: Ring> {
         }
     }
     
+    subscript(rows: Range<Int>, columns: Range<Int>) -> Matrix<R> {
+        get {
+            let width = columns.count
+            var values: [R.Element] = []
+            for i in rows.lowerBound..<rows.upperBound {
+                for j in columns.lowerBound..<columns.upperBound {
+                    values.append(self[i, j])
+                }
+            }
+            return Matrix(family: family, width: width, data: values)
+        }
+    }
+    subscript(rows: ClosedRange<Int>, columns: Range<Int>) -> Matrix<R> {
+        get {
+            return self[Range(rows), columns]
+        }
+    }
+    subscript(rows: Range<Int>, columns: ClosedRange<Int>) -> Matrix<R> {
+        get {
+            return self[rows, Range(columns)]
+        }
+    }
+    subscript(rows: ClosedRange<Int>, columns: ClosedRange<Int>) -> Matrix<R> {
+        get {
+            return self[Range(rows), Range(columns)]
+        }
+    }
+    
 
     
     
