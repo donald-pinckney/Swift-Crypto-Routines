@@ -32,8 +32,7 @@ struct FiniteField: Field {
     // Group
     var additiveIdentity: Polynomial { return Polynomial(repeating: coefficientMod.additiveIdentity, count: n) }
     func add(_ x: Polynomial, _ y: Polynomial) -> Polynomial {
-        return zip(x, y).map(coefficientMod.add)
-        
+        return componentWiseExtend(coefficientMod.add)(x, y)
     }
     func additiveInverse(_ x: Polynomial) -> Polynomial {
         return x.map(coefficientMod.additiveInverse)
@@ -43,7 +42,7 @@ struct FiniteField: Field {
     var multiplicativeIdentity: Polynomial { return [coefficientMod.multiplicativeIdentity] + Polynomial(repeating: coefficientMod.additiveIdentity, count: n-1) }
     
     private func cmult(_ x: Polynomial, _ c: Coefficient) -> Polynomial {
-        return x.map { a in coefficientMod.multiply(a, c) }
+        return x.map(curryLeft(coefficientMod.multiply, value: c))
     }
     
     private func xmult(_ x: Polynomial) -> Polynomial {

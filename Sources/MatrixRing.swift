@@ -6,23 +6,49 @@
 //
 //
 
-struct MatrixRing<F: Field>: Ring {
-    typealias Matrix = [F]
+struct MatrixRing<R: Ring>: Ring {
+    let ring: R
+    let n: Int
+    typealias Matrix = [R.Element]
     typealias Element = Matrix
 
+    init(ring: R, n: Int) {
+        self.n = n
+        self.ring = ring
+        additiveIdentity = Array(repeating: ring.additiveIdentity, count: n*n)
+        
+        var I = additiveIdentity
+        for i in 0..<n {
+            I[n*i + i] = ring.multiplicativeIdentity
+        }
+        multiplicativeIdentity = I
+    }
+    
     // Group
-    let additiveIdentity: Matrix = []
+    let additiveIdentity: Matrix
     func add(_ x: Matrix, _ y: Matrix) -> Matrix {
-        return []
+        return componentWiseExtend(ring.add)(x, y)
     }
     func additiveInverse(_ x: Matrix) -> Matrix {
-        return []
+        return x.map(ring.additiveInverse)
     }
     
     
     // Ring
-    let multiplicativeIdentity: Matrix = []
+    let multiplicativeIdentity: Matrix
     func multiply(_ x: Matrix, _ y: Matrix) -> Matrix {
-        return []
+        var result = additiveIdentity
+        
+        for i in 0..<n { // i is row
+            for j in 0..<n { // j is column
+                var sum = ring.additiveIdentity
+                for k in 0..<n {
+                    sum = ring.add(sum, ring.multiply(x[i*n + k], y[k*n + j]))
+                }
+                
+                result[i*n + j] = sum
+            }
+        }
+        return result
     }
 }
