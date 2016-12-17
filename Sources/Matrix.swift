@@ -79,7 +79,6 @@ struct Matrix<R: Ring> {
     
 
     
-    
     static func +(_ x: Matrix<R>, _ y: Matrix<R>) -> Matrix<R> {
         let elements = componentWiseExtend(x.family.ring.add)(x.data, y.data)
         return Matrix(family: x.family, width: x.width, data: elements)
@@ -89,8 +88,15 @@ struct Matrix<R: Ring> {
         return Matrix(family: x.family, width: x.width, data: elements)
     }
     
-    
-    
+    func transpose() -> Matrix<R> {
+        var result = family.zeroMatrix(width: height, height: width)
+        for i in 0..<result.height {
+            for j in 0..<result.width {
+                result[i, j] = self[j, i]
+            }
+        }
+        return result
+    }
     
     static func *(_ x: Matrix<R>, _ y: Matrix<R>) -> Matrix<R> {
         var result = x.family.zeroMatrix(width: y.width, height: x.height)
