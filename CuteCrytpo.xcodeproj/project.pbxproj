@@ -12,7 +12,7 @@
 		5070D0621E052B3F00738B6F /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0611E052B3F00738B6F /* Field.swift */; };
 		5070D0641E052B6500738B6F /* CommonRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0631E052B6500738B6F /* CommonRings.swift */; };
 		5070D0661E052B8A00738B6F /* CommonFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0651E052B8A00738B6F /* CommonFields.swift */; };
-		5070D0681E052D0600738B6F /* MatrixRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0671E052D0600738B6F /* MatrixRing.swift */; };
+		5070D0681E052D0600738B6F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0671E052D0600738B6F /* Matrix.swift */; };
 		OBJ_34 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ArrayExtensions.swift */; };
 		OBJ_35 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CBC.swift */; };
 		OBJ_36 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CommonOperators.swift */; };
@@ -44,7 +44,7 @@
 		5070D0611E052B3F00738B6F /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		5070D0631E052B6500738B6F /* CommonRings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonRings.swift; sourceTree = "<group>"; };
 		5070D0651E052B8A00738B6F /* CommonFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFields.swift; sourceTree = "<group>"; };
-		5070D0671E052D0600738B6F /* MatrixRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixRing.swift; sourceTree = "<group>"; };
+		5070D0671E052D0600738B6F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		OBJ_10 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		OBJ_11 /* CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBC.swift; sourceTree = "<group>"; };
 		OBJ_12 /* CommonOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonOperators.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 				5070D05D1E052AFC00738B6F /* Group.swift */,
 				5070D05F1E052B2900738B6F /* Ring.swift */,
 				5070D0611E052B3F00738B6F /* Field.swift */,
-				5070D0671E052D0600738B6F /* MatrixRing.swift */,
+				5070D0671E052D0600738B6F /* Matrix.swift */,
 				5070D0631E052B6500738B6F /* CommonRings.swift */,
 				5070D0651E052B8A00738B6F /* CommonFields.swift */,
 			);
@@ -239,7 +239,7 @@
 				OBJ_41 /* FF1_modified.swift in Sources */,
 				OBJ_42 /* FFXHelpers.swift in Sources */,
 				OBJ_43 /* FunctionalSupport.swift in Sources */,
-				5070D0681E052D0600738B6F /* MatrixRing.swift in Sources */,
+				5070D0681E052D0600738B6F /* Matrix.swift in Sources */,
 				5070D0661E052B8A00738B6F /* CommonFields.swift in Sources */,
 				5070D0621E052B3F00738B6F /* Field.swift in Sources */,
 				5070D05E1E052AFC00738B6F /* Group.swift in Sources */,

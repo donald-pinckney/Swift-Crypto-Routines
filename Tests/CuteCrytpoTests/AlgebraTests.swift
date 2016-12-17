@@ -37,12 +37,27 @@ class AlgebraTests: XCTestCase {
         XCTAssertEqual(GF256.multiply(x2, y2), p2)
 
     }
+    
+    func testMatrixFamily() {
+        let matrixFamily = MatrixFamily(ring: IntRing())
+        
+        XCTAssertEqual(matrixFamily.zeroMatrix(width: 3, height: 3).data, [0, 0, 0, 0, 0, 0, 0, 0, 0])
+        
+        let a = matrixFamily.dataMatrix(width: 3, data: [4, 3, -1, 5, 0, 6, -7, -23, 0])
+        let b = matrixFamily.dataMatrix(width: 3, data: [2, 3, 1, 0, 0, -8, -3, 2, 7])
+        
+        XCTAssertEqual((a + b).data, [6, 6, 0, 5, 0, -2, -10, -21, 7])
+        XCTAssertEqual((-a).data, [-4, -3, 1, -5, 0, -6, 7, 23, 0])
+        
+        XCTAssertEqual((a*b).data, [11, 10, -27, -8, 27, 47, -14, -21, 177])
+    }
 
 
     static var allTests : [(String, (AlgebraTests) -> () throws -> Void)] {
         return [
             ("testFiniteField", testFiniteField),
             ("testByteField", testByteField),
+            ("testMatrixFamily", testMatrixFamily),
         ]
     }
 }

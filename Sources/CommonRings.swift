@@ -8,11 +8,11 @@
 
 
 // The integers form a ring
-extension Int: Ring {
+struct IntRing: Ring {
     typealias Element = Int
     
     // Group
-    var additiveIdentity: Int { return 0 }
+    let additiveIdentity = 0
     func add(_ x: Int, _ y: Int) -> Int {
         return x + y
     }
