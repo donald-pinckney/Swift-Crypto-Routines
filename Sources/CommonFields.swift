@@ -1,75 +1,10 @@
-protocol Group {
-    associatedtype Element
-
-    // It must be that additiveIdentity + x = x, x + additiveIdentity = x, for all x.
-    var additiveIdentity: Element { get }
-    
-    // Add must be associative.
-    func add(_ x: Element, _ y: Element) -> Element
-    
-    // additiveInverse must be that x + (-x) = (-x) + x = additiveIdentity
-    func additiveInverse(_ x: Element) -> Element
-}
-
-protocol AbelianGroup: Group {
-    // add(x, y) MUST be commutative.
-}
-
-protocol Ring: AbelianGroup {
-    
-    // It must be that multiplicativeIdentity * x = x * multiplicativeIdentity = x, for all x.
-    var multiplicativeIdentity: Element { get }
-    
-    // Multiply must be associative, and distributive over addition: a*(b+c) = (a*b) + (a*c)
-    func multiply(_ x: Element, _ y: Element) -> Element
-}
-
-protocol Field: Ring {
-    // multiplicativeInverse must be that x * (x^-1) = (x^-1) * x = multiplicativeIdentity, for all x not equal to additiveIdentity
-    func multiplicativeInverse(_ x: Element) -> Element
-}
-
-// The integers form a ring
-extension Int: Ring {
-    typealias Element = Int
-    
-    // Group
-    var additiveIdentity: Int { return 0 }
-    func add(_ x: Int, _ y: Int) -> Int {
-        return x + y
-    }
-    func additiveInverse(_ x: Int) -> Int {
-        return -x
-    }
-    
-    // Ring
-    var multiplicativeIdentity: Int { return 1 }
-    func multiply(_ x: Int, _ y: Int) -> Int {
-        return x * y
-    }
-}
-
-// Ring of Z/n, n >= 2
-struct IntMod: Ring {
-    typealias Element = Int // with each element such that 0 <= element < N
-    
-    let n: Int
-    
-    // Group
-    let additiveIdentity = 0
-    func add(_ x: Int, _ y: Int) -> Int {
-        return (x + y) % n
-    }
-    func additiveInverse(_ x: Int) -> Int {
-        return (n - x) % n
-    }
-    
-    // Ring
-    let multiplicativeIdentity = 1
-    func multiply(_ x: Int, _ y: Int) -> Int {
-        return (x * y) % n
-    }
-}
+//
+//  CommonFields.swift
+//  CuteCrytpo
+//
+//  Created by Donald Pinckney on 12/16/16.
+//
+//
 
 // Field isomorphic to GF(p^n), with p prime.
 struct FiniteField: Field {
@@ -98,7 +33,7 @@ struct FiniteField: Field {
     var additiveIdentity: Polynomial { return Polynomial(repeating: coefficientMod.additiveIdentity, count: n) }
     func add(_ x: Polynomial, _ y: Polynomial) -> Polynomial {
         return zip(x, y).map(coefficientMod.add)
-
+        
     }
     func additiveInverse(_ x: Polynomial) -> Polynomial {
         return x.map(coefficientMod.additiveInverse)
@@ -131,9 +66,9 @@ struct FiniteField: Field {
     }
     
     func multiplicativeInverse(_ x: Polynomial) -> Polynomial {
-        return []
+        fatalError("TODO: Implement me!")
     }
-
+    
 }
 
 
@@ -142,7 +77,7 @@ struct ByteField: Field {
     typealias Element = Byte
     
     let irreduciblePolynomial: Byte
-
+    
     init(irreduciblePolynomial: Byte) {
         self.irreduciblePolynomial = irreduciblePolynomial
     }
@@ -191,14 +126,8 @@ struct ByteField: Field {
     }
     
     func multiplicativeInverse(_ x: Byte) -> Byte {
-        return 0x00
+        fatalError("TODO: Implement me!")
     }
 }
 
-
-let irreduciblePolynomial1 = [1, 1, 0, 1, 1, 0, 0, 0]
-let irreduciblePolynomial2 = 0b1101_1000
-
-let GF256 = FiniteField(p: 2, irreduciblePolynomial: [1, 1, 0, 1, 1, 0, 0, 0])
-print(GF256.multiply([1, 1, 1, 0, 1, 0, 1, 0], [1, 1, 0, 0, 0, 0, 0, 1]))
 
