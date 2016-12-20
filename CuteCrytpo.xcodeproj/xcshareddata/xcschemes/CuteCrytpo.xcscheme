@@ -37,11 +37,6 @@
                BlueprintName = "CuteCrytpoTests"
                ReferencedContainer = "container:CuteCrytpo.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "FF1Tests">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
       <AdditionalOptions>

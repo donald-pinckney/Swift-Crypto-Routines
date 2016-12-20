@@ -60,22 +60,47 @@ struct Matrix<R: Ring> {
             }
             return Matrix(family: family, width: width, data: values)
         }
+        set(subMatrix) {
+            precondition(rows.count == subMatrix.height)
+            precondition(columns.count == subMatrix.width)
+            
+            for r in rows.lowerBound..<rows.upperBound {
+                let subR = r - rows.lowerBound
+                
+                for c in columns.lowerBound..<columns.upperBound {
+                    let subC = c - columns.lowerBound
+                    
+                    self[r, c] = subMatrix[subR, subC]
+                }
+            }
+        }
     }
     subscript(rows: ClosedRange<Int>, columns: Range<Int>) -> Matrix<R> {
         get {
             return self[Range(rows), columns]
+        }
+        set(m) {
+            self[Range(rows), columns] = m
         }
     }
     subscript(rows: Range<Int>, columns: ClosedRange<Int>) -> Matrix<R> {
         get {
             return self[rows, Range(columns)]
         }
+        set(m) {
+            self[rows, Range(columns)] = m
+        }
     }
     subscript(rows: ClosedRange<Int>, columns: ClosedRange<Int>) -> Matrix<R> {
         get {
             return self[Range(rows), Range(columns)]
         }
+        set(m) {
+            self[Range(rows), Range(columns)] = m
+        }
     }
+    
+    
     
 
     
@@ -112,5 +137,22 @@ struct Matrix<R: Ring> {
             }
         }
         return result
+    }
+}
+
+extension Matrix: Equatable {
+    static func ==(lhs: Matrix, rhs: Matrix) -> Bool {
+        guard lhs.width == rhs.width && lhs.height == rhs.height else {
+            return false
+        }
+        
+        for i in 0..<lhs.data.count {
+            let x = lhs.data[i]
+            let y = rhs.data[i]
+            if lhs.family.ring.equal(lhs: x, rhs: y) == false {
+                return false
+            }
+        }
+        return true
     }
 }

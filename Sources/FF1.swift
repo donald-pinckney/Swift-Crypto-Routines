@@ -55,6 +55,7 @@ func FF1(blockCipher E: BlockCipher, key: ByteString, radix: Int, plainText X: [
 
         // Step 6iv.
         let y = num(S) // UInt
+//        print(y)
 
         // Step 6v.
         let m = (i % 2 == 0) ? u : v

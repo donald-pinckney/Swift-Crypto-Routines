@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5030B9131E08F6A8001AABA0 /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5030B9121E08F6A8001AABA0 /* AESTests.swift */; };
 		505995E71E05481A003243A6 /* AES128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505995E61E05481A003243A6 /* AES128.swift */; };
 		5070D05E1E052AFC00738B6F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D05D1E052AFC00738B6F /* Group.swift */; };
 		5070D0601E052B2900738B6F /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D05F1E052B2900738B6F /* Ring.swift */; };
@@ -18,7 +19,6 @@
 		OBJ_35 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CBC.swift */; };
 		OBJ_36 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CommonOperators.swift */; };
 		OBJ_37 /* CryptoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* CryptoHelpers.swift */; };
-		OBJ_38 /* CryptoPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CryptoPrimitives.swift */; };
 		OBJ_39 /* CryptoTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CryptoTypes.swift */; };
 		OBJ_40 /* FF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* FF1.swift */; };
 		OBJ_41 /* FF1_modified.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* FF1_modified.swift */; };
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5030B9121E08F6A8001AABA0 /* AESTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESTests.swift; sourceTree = "<group>"; };
+		5030B9151E091D29001AABA0 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
 		505995E61E05481A003243A6 /* AES128.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES128.swift; sourceTree = "<group>"; };
 		5070D05D1E052AFC00738B6F /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		5070D05F1E052B2900738B6F /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
@@ -51,7 +53,6 @@
 		OBJ_11 /* CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBC.swift; sourceTree = "<group>"; };
 		OBJ_12 /* CommonOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonOperators.swift; sourceTree = "<group>"; };
 		OBJ_13 /* CryptoHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHelpers.swift; sourceTree = "<group>"; };
-		OBJ_14 /* CryptoPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPrimitives.swift; sourceTree = "<group>"; };
 		OBJ_15 /* CryptoTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTypes.swift; sourceTree = "<group>"; };
 		OBJ_16 /* FF1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1.swift; sourceTree = "<group>"; };
 		OBJ_17 /* FF1_modified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1_modified.swift; sourceTree = "<group>"; };
@@ -84,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5030B9141E091D28001AABA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5030B9151E091D29001AABA0 /* libcommonCrypto.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		505995E51E0547E9003243A6 /* AES */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +127,7 @@
 			children = (
 				OBJ_22 /* AlgebraTests.swift */,
 				OBJ_23 /* FF1Tests.swift */,
+				5030B9121E08F6A8001AABA0 /* AESTests.swift */,
 			);
 			name = CuteCrytpoTests;
 			path = Tests/CuteCrytpoTests;
@@ -140,6 +150,7 @@
 				OBJ_20 /* Tests */,
 				OBJ_24 /* CommonCrypto */,
 				OBJ_25 /* Products */,
+				5030B9141E091D28001AABA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,7 +171,6 @@
 				OBJ_11 /* CBC.swift */,
 				OBJ_12 /* CommonOperators.swift */,
 				OBJ_13 /* CryptoHelpers.swift */,
-				OBJ_14 /* CryptoPrimitives.swift */,
 				OBJ_15 /* CryptoTypes.swift */,
 				OBJ_16 /* FF1.swift */,
 				OBJ_17 /* FF1_modified.swift */,
@@ -243,7 +253,6 @@
 				OBJ_35 /* CBC.swift in Sources */,
 				OBJ_36 /* CommonOperators.swift in Sources */,
 				OBJ_37 /* CryptoHelpers.swift in Sources */,
-				OBJ_38 /* CryptoPrimitives.swift in Sources */,
 				5070D0641E052B6500738B6F /* CommonRings.swift in Sources */,
 				OBJ_39 /* CryptoTypes.swift in Sources */,
 				5070D0601E052B2900738B6F /* Ring.swift in Sources */,
@@ -263,6 +272,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_50 /* AlgebraTests.swift in Sources */,
+				5030B9131E08F6A8001AABA0 /* AESTests.swift in Sources */,
 				OBJ_51 /* FF1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +321,10 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CuteCrytpo.xcodeproj/CuteCrytpo_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = CuteCrytpo;
@@ -331,6 +345,10 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CuteCrytpo.xcodeproj/CuteCrytpo_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = CuteCrytpo;

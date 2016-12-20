@@ -17,8 +17,28 @@ protocol Group {
     
     // additiveInverse must be that x + (-x) = (-x) + x = additiveIdentity
     func additiveInverse(_ x: Element) -> Element
+    
+    func equal(lhs: Element, rhs: Element) -> Bool // Because Swift's type system is mature enough to put a : Equatable constraint on Element.
 }
+
+extension Group where Element: Equatable {
+    func equal(lhs: Element, rhs: Element) -> Bool {
+        return lhs == rhs
+    }
+}
+
 
 protocol AbelianGroup: Group {
     // add(x, y) MUST be commutative.
+}
+
+// Any group has a natural definition for integer multiplication
+extension Group {
+    func integerMultiply(_ x: Element, _ n: Int) -> Element {
+        var y = self.additiveIdentity
+        for _ in 0..<n {
+            y = self.add(y, x)
+        }
+        return y
+    }
 }

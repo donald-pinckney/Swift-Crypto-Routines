@@ -35,6 +35,13 @@ class AlgebraTests: XCTestCase {
         
         XCTAssertEqual(GF256.multiply(x1, y1), p1)
         XCTAssertEqual(GF256.multiply(x2, y2), p2)
+        
+        XCTAssertEqual(GF256.multiply(x1, GF256.multiplicativeInverse(x1)),
+                       GF256.multiplicativeIdentity)
+        XCTAssertEqual(GF256.multiply(y1, GF256.multiplicativeInverse(y1)),
+                       GF256.multiplicativeIdentity)
+        XCTAssertEqual(GF256.multiply(y2, GF256.multiplicativeInverse(y2)),
+                       GF256.multiplicativeIdentity)
 
     }
     

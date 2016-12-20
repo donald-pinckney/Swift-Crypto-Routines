@@ -6,6 +6,11 @@
 //
 //
 
+
+
+
+
+
 // Field isomorphic to GF(p^n), with p prime.
 struct FiniteField: Field {
     // Represented by polynomials, with coefficients in arrays.
@@ -64,15 +69,19 @@ struct FiniteField: Field {
         return terms.reduce(additiveIdentity, add)
     }
     
-    func multiplicativeInverse(_ x: Polynomial) -> Polynomial {
-        fatalError("TODO: Implement me!")
+    
+    func equal(lhs: [Coefficient], rhs: [Coefficient]) -> Bool {
+        return lhs == rhs
     }
     
+    func multiplicativeInverse(_ x: [Coefficient]) -> [Coefficient] {
+        fatalError("Implement me!")
+    }
 }
 
 
 // Field isomorphic to GF(2^8), but optimized to be implemented with bytes.
-struct ByteField: Field {
+class ByteField: Field {
     typealias Element = Byte
     
     let irreduciblePolynomial: Byte
@@ -124,8 +133,21 @@ struct ByteField: Field {
         return result
     }
     
+    private var inverseTable: [Byte] = Array(repeating: 0x00, count: 256)
     func multiplicativeInverse(_ x: Byte) -> Byte {
-        fatalError("TODO: Implement me!")
+        let idx = Int(x)
+        if inverseTable[idx] != 0 {
+            return inverseTable[idx]
+        }
+        
+        for inv: Byte in 0x01...0xFF {
+            if multiply(x, inv) == multiplicativeIdentity {
+                inverseTable[idx] = inv
+                return inv
+            }
+        }
+        
+        return 0
     }
 }
 
