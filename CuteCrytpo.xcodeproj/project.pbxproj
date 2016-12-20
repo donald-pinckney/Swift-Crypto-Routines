@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5030B9131E08F6A8001AABA0 /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5030B9121E08F6A8001AABA0 /* AESTests.swift */; };
-		505995E71E05481A003243A6 /* AES128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505995E61E05481A003243A6 /* AES128.swift */; };
+		505995E71E05481A003243A6 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505995E61E05481A003243A6 /* AES.swift */; };
 		5070D05E1E052AFC00738B6F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D05D1E052AFC00738B6F /* Group.swift */; };
 		5070D0601E052B2900738B6F /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D05F1E052B2900738B6F /* Ring.swift */; };
 		5070D0621E052B3F00738B6F /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0611E052B3F00738B6F /* Field.swift */; };
 		5070D0641E052B6500738B6F /* CommonRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0631E052B6500738B6F /* CommonRings.swift */; };
 		5070D0661E052B8A00738B6F /* CommonFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0651E052B8A00738B6F /* CommonFields.swift */; };
 		5070D0681E052D0600738B6F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0671E052D0600738B6F /* Matrix.swift */; };
+		50B6E1E11E09294600A4F3B9 /* AESKeySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E1E01E09294600A4F3B9 /* AESKeySchedule.swift */; };
+		50B6E1E31E0929A500A4F3B9 /* AESHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E1E21E0929A500A4F3B9 /* AESHelpers.swift */; };
+		50B6E1E51E092A1500A4F3B9 /* AESSubRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E1E41E092A1500A4F3B9 /* AESSubRoutines.swift */; };
 		OBJ_34 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ArrayExtensions.swift */; };
 		OBJ_35 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CBC.swift */; };
 		OBJ_36 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CommonOperators.swift */; };
@@ -42,13 +45,16 @@
 /* Begin PBXFileReference section */
 		5030B9121E08F6A8001AABA0 /* AESTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESTests.swift; sourceTree = "<group>"; };
 		5030B9151E091D29001AABA0 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
-		505995E61E05481A003243A6 /* AES128.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES128.swift; sourceTree = "<group>"; };
+		505995E61E05481A003243A6 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 		5070D05D1E052AFC00738B6F /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		5070D05F1E052B2900738B6F /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		5070D0611E052B3F00738B6F /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		5070D0631E052B6500738B6F /* CommonRings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonRings.swift; sourceTree = "<group>"; };
 		5070D0651E052B8A00738B6F /* CommonFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFields.swift; sourceTree = "<group>"; };
 		5070D0671E052D0600738B6F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		50B6E1E01E09294600A4F3B9 /* AESKeySchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESKeySchedule.swift; sourceTree = "<group>"; };
+		50B6E1E21E0929A500A4F3B9 /* AESHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESHelpers.swift; sourceTree = "<group>"; };
+		50B6E1E41E092A1500A4F3B9 /* AESSubRoutines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESSubRoutines.swift; sourceTree = "<group>"; };
 		OBJ_10 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		OBJ_11 /* CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBC.swift; sourceTree = "<group>"; };
 		OBJ_12 /* CommonOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonOperators.swift; sourceTree = "<group>"; };
@@ -60,7 +66,6 @@
 		OBJ_19 /* FunctionalSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalSupport.swift; sourceTree = "<group>"; };
 		OBJ_22 /* AlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraTests.swift; sourceTree = "<group>"; };
 		OBJ_23 /* FF1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1Tests.swift; sourceTree = "<group>"; };
-		OBJ_24 /* CommonCrypto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonCrypto; sourceTree = SOURCE_ROOT; };
 		OBJ_26 /* CuteCrytpo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CuteCrytpo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_27 /* CuteCrytpoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CuteCrytpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -96,7 +101,10 @@
 		505995E51E0547E9003243A6 /* AES */ = {
 			isa = PBXGroup;
 			children = (
-				505995E61E05481A003243A6 /* AES128.swift */,
+				505995E61E05481A003243A6 /* AES.swift */,
+				50B6E1E01E09294600A4F3B9 /* AESKeySchedule.swift */,
+				50B6E1E21E0929A500A4F3B9 /* AESHelpers.swift */,
+				50B6E1E41E092A1500A4F3B9 /* AESSubRoutines.swift */,
 			);
 			name = AES;
 			sourceTree = "<group>";
@@ -148,7 +156,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_20 /* Tests */,
-				OBJ_24 /* CommonCrypto */,
 				OBJ_25 /* Products */,
 				5030B9141E091D28001AABA0 /* Frameworks */,
 			);
@@ -248,10 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				505995E71E05481A003243A6 /* AES128.swift in Sources */,
+				505995E71E05481A003243A6 /* AES.swift in Sources */,
+				50B6E1E31E0929A500A4F3B9 /* AESHelpers.swift in Sources */,
 				OBJ_34 /* ArrayExtensions.swift in Sources */,
 				OBJ_35 /* CBC.swift in Sources */,
 				OBJ_36 /* CommonOperators.swift in Sources */,
+				50B6E1E11E09294600A4F3B9 /* AESKeySchedule.swift in Sources */,
 				OBJ_37 /* CryptoHelpers.swift in Sources */,
 				5070D0641E052B6500738B6F /* CommonRings.swift in Sources */,
 				OBJ_39 /* CryptoTypes.swift in Sources */,
@@ -260,6 +269,7 @@
 				OBJ_41 /* FF1_modified.swift in Sources */,
 				OBJ_42 /* FFXHelpers.swift in Sources */,
 				OBJ_43 /* FunctionalSupport.swift in Sources */,
+				50B6E1E51E092A1500A4F3B9 /* AESSubRoutines.swift in Sources */,
 				5070D0681E052D0600738B6F /* Matrix.swift in Sources */,
 				5070D0661E052B8A00738B6F /* CommonFields.swift in Sources */,
 				5070D0621E052B3F00738B6F /* Field.swift in Sources */,
