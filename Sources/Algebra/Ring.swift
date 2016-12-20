@@ -1,6 +1,6 @@
 //
 //  Ring.swift
-//  CuteCrytpo
+//  Swift Crypto Routines
 //
 //  Created by Donald Pinckney on 12/16/16.
 //
