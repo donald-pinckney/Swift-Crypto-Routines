@@ -1,5 +1,5 @@
 //
-//  AES128.swift
+//  AES.swift
 //  Swift Crypto Routines
 //
 //  Created by Donald Pinckney on 12/17/16.
