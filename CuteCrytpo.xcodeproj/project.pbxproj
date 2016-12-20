@@ -7,237 +7,237 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_109 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CBC.swift */; };
-		OBJ_111 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_112 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_119 /* CryptoTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* CryptoTypes.swift */; };
-		OBJ_125 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ArrayExtensions.swift */; };
-		OBJ_126 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* CommonOperators.swift */; };
-		OBJ_127 /* CryptoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CryptoHelpers.swift */; };
-		OBJ_128 /* FunctionalSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* FunctionalSupport.swift */; };
-		OBJ_130 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_137 /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* AESTests.swift */; };
-		OBJ_139 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_140 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_141 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
-		OBJ_142 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AES.framework */; };
-		OBJ_152 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* AlgebraTests.swift */; };
-		OBJ_154 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_155 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_156 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
-		OBJ_165 /* FF1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* FF1Tests.swift */; };
-		OBJ_167 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_168 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_169 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
-		OBJ_170 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AES.framework */; };
-		OBJ_171 /* MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* MAC.framework */; };
-		OBJ_172 /* FF1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* FF1.framework */; };
-		OBJ_56 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AES.swift */; };
-		OBJ_57 /* AESHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AESHelpers.swift */; };
-		OBJ_58 /* AESKeySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AESKeySchedule.swift */; };
-		OBJ_59 /* AESSubRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AESSubRoutines.swift */; };
-		OBJ_61 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_62 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_63 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
-		OBJ_74 /* CommonFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CommonFields.swift */; };
-		OBJ_75 /* CommonRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CommonRings.swift */; };
-		OBJ_76 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Field.swift */; };
-		OBJ_77 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Group.swift */; };
-		OBJ_78 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Matrix.swift */; };
-		OBJ_79 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Ring.swift */; };
-		OBJ_81 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_82 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_90 /* FF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* FF1.swift */; };
-		OBJ_91 /* FF1_modified.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* FF1_modified.swift */; };
-		OBJ_92 /* FFXHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* FFXHelpers.swift */; };
-		OBJ_94 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
-		OBJ_95 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
-		OBJ_96 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
-		OBJ_97 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AES.framework */; };
-		OBJ_98 /* MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* MAC.framework */; };
+		OBJ_108 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CBC.swift */; };
+		OBJ_110 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_111 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_118 /* CryptoTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* CryptoTypes.swift */; };
+		OBJ_124 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ArrayExtensions.swift */; };
+		OBJ_125 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* CommonOperators.swift */; };
+		OBJ_126 /* CryptoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CryptoHelpers.swift */; };
+		OBJ_127 /* FunctionalSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* FunctionalSupport.swift */; };
+		OBJ_129 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_136 /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* AESTests.swift */; };
+		OBJ_138 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_139 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_140 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Algebra.framework */; };
+		OBJ_141 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* AES.framework */; };
+		OBJ_151 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* AlgebraTests.swift */; };
+		OBJ_153 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_154 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_155 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Algebra.framework */; };
+		OBJ_164 /* FF1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* FF1Tests.swift */; };
+		OBJ_166 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_167 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_168 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Algebra.framework */; };
+		OBJ_169 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* AES.framework */; };
+		OBJ_170 /* MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* MAC.framework */; };
+		OBJ_171 /* FF1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* FF1.framework */; };
+		OBJ_55 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AES.swift */; };
+		OBJ_56 /* AESHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AESHelpers.swift */; };
+		OBJ_57 /* AESKeySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AESKeySchedule.swift */; };
+		OBJ_58 /* AESSubRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AESSubRoutines.swift */; };
+		OBJ_60 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_61 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_62 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Algebra.framework */; };
+		OBJ_73 /* CommonFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CommonFields.swift */; };
+		OBJ_74 /* CommonRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CommonRings.swift */; };
+		OBJ_75 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Field.swift */; };
+		OBJ_76 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Group.swift */; };
+		OBJ_77 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Matrix.swift */; };
+		OBJ_78 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Ring.swift */; };
+		OBJ_80 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_81 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_89 /* FF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* FF1.swift */; };
+		OBJ_90 /* FF1_modified.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* FF1_modified.swift */; };
+		OBJ_91 /* FFXHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* FFXHelpers.swift */; };
+		OBJ_93 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Types.framework */; };
+		OBJ_94 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Utils.framework */; };
+		OBJ_95 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Algebra.framework */; };
+		OBJ_96 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* AES.framework */; };
+		OBJ_97 /* MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* MAC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		50F26F7F1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C381E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F801E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C391E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F811E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C3A1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F821E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C3B1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_69;
+			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50F26F831E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C3C1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F841E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C3D1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F851E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C3E1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F861E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C3F1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F871E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C401E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_69;
+			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50F26F881E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C411E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_51;
+			remoteGlobalIDString = OBJ_50;
 			remoteInfo = AES;
 		};
-		50F26F891E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C421E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_104;
+			remoteGlobalIDString = OBJ_103;
 			remoteInfo = MAC;
 		};
-		50F26F8A1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C431E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F8B1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C441E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F8C1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C451E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F8D1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C461E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F8E1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C471E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_69;
+			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50F26F8F1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C481E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_51;
+			remoteGlobalIDString = OBJ_50;
 			remoteInfo = AES;
 		};
-		50F26F901E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C491E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F911E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C4A1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F921E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C4B1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_69;
+			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50F26F931E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C4C1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_65;
+			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50F26F941E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C4D1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_67;
+			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50F26F951E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C4E1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_69;
+			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50F26F961E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C4F1E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_51;
+			remoteGlobalIDString = OBJ_50;
 			remoteInfo = AES;
 		};
-		50F26F971E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C501E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_104;
+			remoteGlobalIDString = OBJ_103;
 			remoteInfo = MAC;
 		};
-		50F26F981E093D52004E8B78 /* PBXContainerItemProxy */ = {
+		50826C511E093E0300A30478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_85;
+			remoteGlobalIDString = OBJ_84;
 			remoteInfo = FF1;
 		};
 /* End PBXContainerItemProxy section */
@@ -264,107 +264,106 @@
 		OBJ_35 /* AESTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESTests.swift; sourceTree = "<group>"; };
 		OBJ_37 /* AlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraTests.swift; sourceTree = "<group>"; };
 		OBJ_39 /* FF1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1Tests.swift; sourceTree = "<group>"; };
-		OBJ_40 /* backup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = backup; sourceTree = SOURCE_ROOT; };
-		OBJ_42 /* AES.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AES.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_43 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_44 /* FF1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FF1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_45 /* MAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_46 /* Types.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Types.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_47 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_48 /* AESTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_49 /* AlgebraTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_50 /* FF1Tests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = FF1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_41 /* AES.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AES.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_42 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_43 /* FF1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FF1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_44 /* MAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_45 /* Types.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Types.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_46 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_47 /* AESTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_48 /* AlgebraTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_49 /* FF1Tests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = FF1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_110 /* Frameworks */ = {
+		OBJ_109 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_111 /* Types.framework in Frameworks */,
-				OBJ_112 /* Utils.framework in Frameworks */,
+				OBJ_110 /* Types.framework in Frameworks */,
+				OBJ_111 /* Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_120 /* Frameworks */ = {
+		OBJ_119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_129 /* Frameworks */ = {
+		OBJ_128 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_130 /* Types.framework in Frameworks */,
+				OBJ_129 /* Types.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_138 /* Frameworks */ = {
+		OBJ_137 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_139 /* Types.framework in Frameworks */,
-				OBJ_140 /* Utils.framework in Frameworks */,
-				OBJ_141 /* Algebra.framework in Frameworks */,
-				OBJ_142 /* AES.framework in Frameworks */,
+				OBJ_138 /* Types.framework in Frameworks */,
+				OBJ_139 /* Utils.framework in Frameworks */,
+				OBJ_140 /* Algebra.framework in Frameworks */,
+				OBJ_141 /* AES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_153 /* Frameworks */ = {
+		OBJ_152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_154 /* Types.framework in Frameworks */,
-				OBJ_155 /* Utils.framework in Frameworks */,
-				OBJ_156 /* Algebra.framework in Frameworks */,
+				OBJ_153 /* Types.framework in Frameworks */,
+				OBJ_154 /* Utils.framework in Frameworks */,
+				OBJ_155 /* Algebra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_166 /* Frameworks */ = {
+		OBJ_165 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_167 /* Types.framework in Frameworks */,
-				OBJ_168 /* Utils.framework in Frameworks */,
-				OBJ_169 /* Algebra.framework in Frameworks */,
-				OBJ_170 /* AES.framework in Frameworks */,
-				OBJ_171 /* MAC.framework in Frameworks */,
-				OBJ_172 /* FF1.framework in Frameworks */,
+				OBJ_166 /* Types.framework in Frameworks */,
+				OBJ_167 /* Utils.framework in Frameworks */,
+				OBJ_168 /* Algebra.framework in Frameworks */,
+				OBJ_169 /* AES.framework in Frameworks */,
+				OBJ_170 /* MAC.framework in Frameworks */,
+				OBJ_171 /* FF1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_60 /* Frameworks */ = {
+		OBJ_59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_61 /* Types.framework in Frameworks */,
-				OBJ_62 /* Utils.framework in Frameworks */,
-				OBJ_63 /* Algebra.framework in Frameworks */,
+				OBJ_60 /* Types.framework in Frameworks */,
+				OBJ_61 /* Utils.framework in Frameworks */,
+				OBJ_62 /* Algebra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_80 /* Frameworks */ = {
+		OBJ_79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_81 /* Types.framework in Frameworks */,
-				OBJ_82 /* Utils.framework in Frameworks */,
+				OBJ_80 /* Types.framework in Frameworks */,
+				OBJ_81 /* Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_93 /* Frameworks */ = {
+		OBJ_92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_94 /* Types.framework in Frameworks */,
-				OBJ_95 /* Utils.framework in Frameworks */,
-				OBJ_96 /* Algebra.framework in Frameworks */,
-				OBJ_97 /* AES.framework in Frameworks */,
-				OBJ_98 /* MAC.framework in Frameworks */,
+				OBJ_93 /* Types.framework in Frameworks */,
+				OBJ_94 /* Utils.framework in Frameworks */,
+				OBJ_95 /* Algebra.framework in Frameworks */,
+				OBJ_96 /* AES.framework in Frameworks */,
+				OBJ_97 /* MAC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,18 +462,18 @@
 			path = Tests/FF1Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_41 /* Products */ = {
+		OBJ_40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_42 /* AES.framework */,
-				OBJ_43 /* Algebra.framework */,
-				OBJ_44 /* FF1.framework */,
-				OBJ_45 /* MAC.framework */,
-				OBJ_46 /* Types.framework */,
-				OBJ_47 /* Utils.framework */,
-				OBJ_48 /* AESTests.xctest */,
-				OBJ_49 /* AlgebraTests.xctest */,
-				OBJ_50 /* FF1Tests.xctest */,
+				OBJ_41 /* AES.framework */,
+				OBJ_42 /* Algebra.framework */,
+				OBJ_43 /* FF1.framework */,
+				OBJ_44 /* MAC.framework */,
+				OBJ_45 /* Types.framework */,
+				OBJ_46 /* Utils.framework */,
+				OBJ_47 /* AESTests.xctest */,
+				OBJ_48 /* AlgebraTests.xctest */,
+				OBJ_49 /* FF1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -485,8 +484,7 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_33 /* Tests */,
-				OBJ_40 /* backup */,
-				OBJ_41 /* Products */,
+				OBJ_40 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -519,110 +517,110 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_104 /* MAC */ = {
+		OBJ_103 /* MAC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_105 /* Build configuration list for PBXNativeTarget "MAC" */;
+			buildConfigurationList = OBJ_104 /* Build configuration list for PBXNativeTarget "MAC" */;
 			buildPhases = (
-				OBJ_108 /* Sources */,
-				OBJ_110 /* Frameworks */,
+				OBJ_107 /* Sources */,
+				OBJ_109 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_112 /* PBXTargetDependency */,
 				OBJ_113 /* PBXTargetDependency */,
-				OBJ_114 /* PBXTargetDependency */,
 			);
 			name = MAC;
 			productName = MAC;
-			productReference = OBJ_45 /* MAC.framework */;
+			productReference = OBJ_44 /* MAC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_132 /* AESTests */ = {
+		OBJ_131 /* AESTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_133 /* Build configuration list for PBXNativeTarget "AESTests" */;
+			buildConfigurationList = OBJ_132 /* Build configuration list for PBXNativeTarget "AESTests" */;
 			buildPhases = (
-				OBJ_136 /* Sources */,
-				OBJ_138 /* Frameworks */,
+				OBJ_135 /* Sources */,
+				OBJ_137 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_142 /* PBXTargetDependency */,
 				OBJ_143 /* PBXTargetDependency */,
 				OBJ_144 /* PBXTargetDependency */,
 				OBJ_145 /* PBXTargetDependency */,
-				OBJ_146 /* PBXTargetDependency */,
 			);
 			name = AESTests;
 			productName = AESTests;
-			productReference = OBJ_48 /* AESTests.xctest */;
+			productReference = OBJ_47 /* AESTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		OBJ_147 /* AlgebraTests */ = {
+		OBJ_146 /* AlgebraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_148 /* Build configuration list for PBXNativeTarget "AlgebraTests" */;
+			buildConfigurationList = OBJ_147 /* Build configuration list for PBXNativeTarget "AlgebraTests" */;
 			buildPhases = (
-				OBJ_151 /* Sources */,
-				OBJ_153 /* Frameworks */,
+				OBJ_150 /* Sources */,
+				OBJ_152 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_156 /* PBXTargetDependency */,
 				OBJ_157 /* PBXTargetDependency */,
 				OBJ_158 /* PBXTargetDependency */,
-				OBJ_159 /* PBXTargetDependency */,
 			);
 			name = AlgebraTests;
 			productName = AlgebraTests;
-			productReference = OBJ_49 /* AlgebraTests.xctest */;
+			productReference = OBJ_48 /* AlgebraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		OBJ_160 /* FF1Tests */ = {
+		OBJ_159 /* FF1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_161 /* Build configuration list for PBXNativeTarget "FF1Tests" */;
+			buildConfigurationList = OBJ_160 /* Build configuration list for PBXNativeTarget "FF1Tests" */;
 			buildPhases = (
-				OBJ_164 /* Sources */,
-				OBJ_166 /* Frameworks */,
+				OBJ_163 /* Sources */,
+				OBJ_165 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_172 /* PBXTargetDependency */,
 				OBJ_173 /* PBXTargetDependency */,
 				OBJ_174 /* PBXTargetDependency */,
 				OBJ_175 /* PBXTargetDependency */,
 				OBJ_176 /* PBXTargetDependency */,
 				OBJ_177 /* PBXTargetDependency */,
-				OBJ_178 /* PBXTargetDependency */,
 			);
 			name = FF1Tests;
 			productName = FF1Tests;
-			productReference = OBJ_50 /* FF1Tests.xctest */;
+			productReference = OBJ_49 /* FF1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		OBJ_51 /* AES */ = {
+		OBJ_50 /* AES */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_52 /* Build configuration list for PBXNativeTarget "AES" */;
+			buildConfigurationList = OBJ_51 /* Build configuration list for PBXNativeTarget "AES" */;
 			buildPhases = (
-				OBJ_55 /* Sources */,
-				OBJ_60 /* Frameworks */,
+				OBJ_54 /* Sources */,
+				OBJ_59 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_64 /* PBXTargetDependency */,
-				OBJ_66 /* PBXTargetDependency */,
-				OBJ_68 /* PBXTargetDependency */,
+				OBJ_63 /* PBXTargetDependency */,
+				OBJ_65 /* PBXTargetDependency */,
+				OBJ_67 /* PBXTargetDependency */,
 			);
 			name = AES;
 			productName = AES;
-			productReference = OBJ_42 /* AES.framework */;
+			productReference = OBJ_41 /* AES.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_65 /* Types */ = {
+		OBJ_64 /* Types */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_115 /* Build configuration list for PBXNativeTarget "Types" */;
+			buildConfigurationList = OBJ_114 /* Build configuration list for PBXNativeTarget "Types" */;
 			buildPhases = (
-				OBJ_118 /* Sources */,
-				OBJ_120 /* Frameworks */,
+				OBJ_117 /* Sources */,
+				OBJ_119 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -630,63 +628,63 @@
 			);
 			name = Types;
 			productName = Types;
-			productReference = OBJ_46 /* Types.framework */;
+			productReference = OBJ_45 /* Types.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_67 /* Utils */ = {
+		OBJ_66 /* Utils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_121 /* Build configuration list for PBXNativeTarget "Utils" */;
+			buildConfigurationList = OBJ_120 /* Build configuration list for PBXNativeTarget "Utils" */;
 			buildPhases = (
-				OBJ_124 /* Sources */,
-				OBJ_129 /* Frameworks */,
+				OBJ_123 /* Sources */,
+				OBJ_128 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_131 /* PBXTargetDependency */,
+				OBJ_130 /* PBXTargetDependency */,
 			);
 			name = Utils;
 			productName = Utils;
-			productReference = OBJ_47 /* Utils.framework */;
+			productReference = OBJ_46 /* Utils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_69 /* Algebra */ = {
+		OBJ_68 /* Algebra */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "Algebra" */;
+			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "Algebra" */;
 			buildPhases = (
-				OBJ_73 /* Sources */,
-				OBJ_80 /* Frameworks */,
+				OBJ_72 /* Sources */,
+				OBJ_79 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_82 /* PBXTargetDependency */,
 				OBJ_83 /* PBXTargetDependency */,
-				OBJ_84 /* PBXTargetDependency */,
 			);
 			name = Algebra;
 			productName = Algebra;
-			productReference = OBJ_43 /* Algebra.framework */;
+			productReference = OBJ_42 /* Algebra.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_85 /* FF1 */ = {
+		OBJ_84 /* FF1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_86 /* Build configuration list for PBXNativeTarget "FF1" */;
+			buildConfigurationList = OBJ_85 /* Build configuration list for PBXNativeTarget "FF1" */;
 			buildPhases = (
-				OBJ_89 /* Sources */,
-				OBJ_93 /* Frameworks */,
+				OBJ_88 /* Sources */,
+				OBJ_92 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_98 /* PBXTargetDependency */,
 				OBJ_99 /* PBXTargetDependency */,
 				OBJ_100 /* PBXTargetDependency */,
 				OBJ_101 /* PBXTargetDependency */,
 				OBJ_102 /* PBXTargetDependency */,
-				OBJ_103 /* PBXTargetDependency */,
 			);
 			name = FF1;
 			productName = FF1;
-			productReference = OBJ_44 /* FF1.framework */;
+			productReference = OBJ_43 /* FF1.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -705,106 +703,106 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_41 /* Products */;
+			productRefGroup = OBJ_40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_51 /* AES */,
-				OBJ_69 /* Algebra */,
-				OBJ_85 /* FF1 */,
-				OBJ_104 /* MAC */,
-				OBJ_65 /* Types */,
-				OBJ_67 /* Utils */,
-				OBJ_132 /* AESTests */,
-				OBJ_147 /* AlgebraTests */,
-				OBJ_160 /* FF1Tests */,
+				OBJ_50 /* AES */,
+				OBJ_68 /* Algebra */,
+				OBJ_84 /* FF1 */,
+				OBJ_103 /* MAC */,
+				OBJ_64 /* Types */,
+				OBJ_66 /* Utils */,
+				OBJ_131 /* AESTests */,
+				OBJ_146 /* AlgebraTests */,
+				OBJ_159 /* FF1Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_108 /* Sources */ = {
+		OBJ_107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_109 /* CBC.swift in Sources */,
+				OBJ_108 /* CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_118 /* Sources */ = {
+		OBJ_117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_119 /* CryptoTypes.swift in Sources */,
+				OBJ_118 /* CryptoTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_124 /* Sources */ = {
+		OBJ_123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_125 /* ArrayExtensions.swift in Sources */,
-				OBJ_126 /* CommonOperators.swift in Sources */,
-				OBJ_127 /* CryptoHelpers.swift in Sources */,
-				OBJ_128 /* FunctionalSupport.swift in Sources */,
+				OBJ_124 /* ArrayExtensions.swift in Sources */,
+				OBJ_125 /* CommonOperators.swift in Sources */,
+				OBJ_126 /* CryptoHelpers.swift in Sources */,
+				OBJ_127 /* FunctionalSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_136 /* Sources */ = {
+		OBJ_135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_137 /* AESTests.swift in Sources */,
+				OBJ_136 /* AESTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_151 /* Sources */ = {
+		OBJ_150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_152 /* AlgebraTests.swift in Sources */,
+				OBJ_151 /* AlgebraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_164 /* Sources */ = {
+		OBJ_163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_165 /* FF1Tests.swift in Sources */,
+				OBJ_164 /* FF1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_55 /* Sources */ = {
+		OBJ_54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_56 /* AES.swift in Sources */,
-				OBJ_57 /* AESHelpers.swift in Sources */,
-				OBJ_58 /* AESKeySchedule.swift in Sources */,
-				OBJ_59 /* AESSubRoutines.swift in Sources */,
+				OBJ_55 /* AES.swift in Sources */,
+				OBJ_56 /* AESHelpers.swift in Sources */,
+				OBJ_57 /* AESKeySchedule.swift in Sources */,
+				OBJ_58 /* AESSubRoutines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_73 /* Sources */ = {
+		OBJ_72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_74 /* CommonFields.swift in Sources */,
-				OBJ_75 /* CommonRings.swift in Sources */,
-				OBJ_76 /* Field.swift in Sources */,
-				OBJ_77 /* Group.swift in Sources */,
-				OBJ_78 /* Matrix.swift in Sources */,
-				OBJ_79 /* Ring.swift in Sources */,
+				OBJ_73 /* CommonFields.swift in Sources */,
+				OBJ_74 /* CommonRings.swift in Sources */,
+				OBJ_75 /* Field.swift in Sources */,
+				OBJ_76 /* Group.swift in Sources */,
+				OBJ_77 /* Matrix.swift in Sources */,
+				OBJ_78 /* Ring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_89 /* Sources */ = {
+		OBJ_88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_90 /* FF1.swift in Sources */,
-				OBJ_91 /* FF1_modified.swift in Sources */,
-				OBJ_92 /* FFXHelpers.swift in Sources */,
+				OBJ_89 /* FF1.swift in Sources */,
+				OBJ_90 /* FF1_modified.swift in Sources */,
+				OBJ_91 /* FFXHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,138 +811,138 @@
 /* Begin PBXTargetDependency section */
 		OBJ_100 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F861E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_68 /* Algebra */;
+			targetProxy = 50826C401E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_101 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_69 /* Algebra */;
-			targetProxy = 50F26F871E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_50 /* AES */;
+			targetProxy = 50826C411E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_102 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_51 /* AES */;
-			targetProxy = 50F26F881E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_103 /* MAC */;
+			targetProxy = 50826C421E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_103 /* PBXTargetDependency */ = {
+		OBJ_112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_104 /* MAC */;
-			targetProxy = 50F26F891E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C431E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F8A1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C441E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_114 /* PBXTargetDependency */ = {
+		OBJ_130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F8B1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C3A1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_131 /* PBXTargetDependency */ = {
+		OBJ_142 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F811E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C451E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F8C1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C461E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F8D1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_68 /* Algebra */;
+			targetProxy = 50826C471E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_69 /* Algebra */;
-			targetProxy = 50F26F8E1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_50 /* AES */;
+			targetProxy = 50826C481E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_146 /* PBXTargetDependency */ = {
+		OBJ_156 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_51 /* AES */;
-			targetProxy = 50F26F8F1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C491E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_157 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F901E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C4A1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_158 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F911E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_68 /* Algebra */;
+			targetProxy = 50826C4B1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_159 /* PBXTargetDependency */ = {
+		OBJ_172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_69 /* Algebra */;
-			targetProxy = 50F26F921E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C4C1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_173 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F931E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C4D1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F941E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_68 /* Algebra */;
+			targetProxy = 50826C4E1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_69 /* Algebra */;
-			targetProxy = 50F26F951E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_50 /* AES */;
+			targetProxy = 50826C4F1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_176 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_51 /* AES */;
-			targetProxy = 50F26F961E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_103 /* MAC */;
+			targetProxy = 50826C501E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_104 /* MAC */;
-			targetProxy = 50F26F971E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_84 /* FF1 */;
+			targetProxy = 50826C511E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_178 /* PBXTargetDependency */ = {
+		OBJ_63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_85 /* FF1 */;
-			targetProxy = 50F26F981E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C381E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_64 /* PBXTargetDependency */ = {
+		OBJ_65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F7F1E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C391E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_66 /* PBXTargetDependency */ = {
+		OBJ_67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F801E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_68 /* Algebra */;
+			targetProxy = 50826C3B1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_68 /* PBXTargetDependency */ = {
+		OBJ_82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_69 /* Algebra */;
-			targetProxy = 50F26F821E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C3C1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F831E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C3D1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
-		OBJ_84 /* PBXTargetDependency */ = {
+		OBJ_98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_67 /* Utils */;
-			targetProxy = 50F26F841E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_64 /* Types */;
+			targetProxy = 50826C3E1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 		OBJ_99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_65 /* Types */;
-			targetProxy = 50F26F851E093D52004E8B78 /* PBXContainerItemProxy */;
+			target = OBJ_66 /* Utils */;
+			targetProxy = 50826C3F1E093E0300A30478 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_106 /* Debug */ = {
+		OBJ_105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -964,7 +962,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_107 /* Release */ = {
+		OBJ_106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -984,7 +982,7 @@
 			};
 			name = Release;
 		};
-		OBJ_116 /* Debug */ = {
+		OBJ_115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1004,7 +1002,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_117 /* Release */ = {
+		OBJ_116 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1024,7 +1022,7 @@
 			};
 			name = Release;
 		};
-		OBJ_122 /* Debug */ = {
+		OBJ_121 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1044,7 +1042,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_123 /* Release */ = {
+		OBJ_122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1064,7 +1062,7 @@
 			};
 			name = Release;
 		};
-		OBJ_134 /* Debug */ = {
+		OBJ_133 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1081,7 +1079,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_135 /* Release */ = {
+		OBJ_134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1098,7 +1096,7 @@
 			};
 			name = Release;
 		};
-		OBJ_149 /* Debug */ = {
+		OBJ_148 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1115,7 +1113,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_150 /* Release */ = {
+		OBJ_149 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1132,7 +1130,7 @@
 			};
 			name = Release;
 		};
-		OBJ_162 /* Debug */ = {
+		OBJ_161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1149,7 +1147,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_163 /* Release */ = {
+		OBJ_162 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1208,7 +1206,7 @@
 			};
 			name = Release;
 		};
-		OBJ_53 /* Debug */ = {
+		OBJ_52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1228,7 +1226,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_54 /* Release */ = {
+		OBJ_53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1248,7 +1246,7 @@
 			};
 			name = Release;
 		};
-		OBJ_71 /* Debug */ = {
+		OBJ_70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1268,7 +1266,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_72 /* Release */ = {
+		OBJ_71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1288,7 +1286,7 @@
 			};
 			name = Release;
 		};
-		OBJ_87 /* Debug */ = {
+		OBJ_86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1308,7 +1306,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_88 /* Release */ = {
+		OBJ_87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1331,56 +1329,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_105 /* Build configuration list for PBXNativeTarget "MAC" */ = {
+		OBJ_104 /* Build configuration list for PBXNativeTarget "MAC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_106 /* Debug */,
-				OBJ_107 /* Release */,
+				OBJ_105 /* Debug */,
+				OBJ_106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_115 /* Build configuration list for PBXNativeTarget "Types" */ = {
+		OBJ_114 /* Build configuration list for PBXNativeTarget "Types" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_116 /* Debug */,
-				OBJ_117 /* Release */,
+				OBJ_115 /* Debug */,
+				OBJ_116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_121 /* Build configuration list for PBXNativeTarget "Utils" */ = {
+		OBJ_120 /* Build configuration list for PBXNativeTarget "Utils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_122 /* Debug */,
-				OBJ_123 /* Release */,
+				OBJ_121 /* Debug */,
+				OBJ_122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_133 /* Build configuration list for PBXNativeTarget "AESTests" */ = {
+		OBJ_132 /* Build configuration list for PBXNativeTarget "AESTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_134 /* Debug */,
-				OBJ_135 /* Release */,
+				OBJ_133 /* Debug */,
+				OBJ_134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_148 /* Build configuration list for PBXNativeTarget "AlgebraTests" */ = {
+		OBJ_147 /* Build configuration list for PBXNativeTarget "AlgebraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_149 /* Debug */,
-				OBJ_150 /* Release */,
+				OBJ_148 /* Debug */,
+				OBJ_149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_161 /* Build configuration list for PBXNativeTarget "FF1Tests" */ = {
+		OBJ_160 /* Build configuration list for PBXNativeTarget "FF1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_162 /* Debug */,
-				OBJ_163 /* Release */,
+				OBJ_161 /* Debug */,
+				OBJ_162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -1394,29 +1392,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_52 /* Build configuration list for PBXNativeTarget "AES" */ = {
+		OBJ_51 /* Build configuration list for PBXNativeTarget "AES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_53 /* Debug */,
-				OBJ_54 /* Release */,
+				OBJ_52 /* Debug */,
+				OBJ_53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_70 /* Build configuration list for PBXNativeTarget "Algebra" */ = {
+		OBJ_69 /* Build configuration list for PBXNativeTarget "Algebra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_71 /* Debug */,
-				OBJ_72 /* Release */,
+				OBJ_70 /* Debug */,
+				OBJ_71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_86 /* Build configuration list for PBXNativeTarget "FF1" */ = {
+		OBJ_85 /* Build configuration list for PBXNativeTarget "FF1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_87 /* Debug */,
-				OBJ_88 /* Release */,
+				OBJ_86 /* Debug */,
+				OBJ_87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
