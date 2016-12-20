@@ -7,222 +7,687 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5030B9131E08F6A8001AABA0 /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5030B9121E08F6A8001AABA0 /* AESTests.swift */; };
-		505995E71E05481A003243A6 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505995E61E05481A003243A6 /* AES.swift */; };
-		5070D05E1E052AFC00738B6F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D05D1E052AFC00738B6F /* Group.swift */; };
-		5070D0601E052B2900738B6F /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D05F1E052B2900738B6F /* Ring.swift */; };
-		5070D0621E052B3F00738B6F /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0611E052B3F00738B6F /* Field.swift */; };
-		5070D0641E052B6500738B6F /* CommonRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0631E052B6500738B6F /* CommonRings.swift */; };
-		5070D0661E052B8A00738B6F /* CommonFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0651E052B8A00738B6F /* CommonFields.swift */; };
-		5070D0681E052D0600738B6F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070D0671E052D0600738B6F /* Matrix.swift */; };
-		50B6E1E11E09294600A4F3B9 /* AESKeySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E1E01E09294600A4F3B9 /* AESKeySchedule.swift */; };
-		50B6E1E31E0929A500A4F3B9 /* AESHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E1E21E0929A500A4F3B9 /* AESHelpers.swift */; };
-		50B6E1E51E092A1500A4F3B9 /* AESSubRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E1E41E092A1500A4F3B9 /* AESSubRoutines.swift */; };
-		OBJ_34 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ArrayExtensions.swift */; };
-		OBJ_35 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CBC.swift */; };
-		OBJ_36 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CommonOperators.swift */; };
-		OBJ_37 /* CryptoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* CryptoHelpers.swift */; };
-		OBJ_39 /* CryptoTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CryptoTypes.swift */; };
-		OBJ_40 /* FF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* FF1.swift */; };
-		OBJ_41 /* FF1_modified.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* FF1_modified.swift */; };
-		OBJ_42 /* FFXHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* FFXHelpers.swift */; };
-		OBJ_43 /* FunctionalSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* FunctionalSupport.swift */; };
-		OBJ_50 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* AlgebraTests.swift */; };
-		OBJ_51 /* FF1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* FF1Tests.swift */; };
-		OBJ_53 /* CuteCrytpo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CuteCrytpo.framework */; };
+		OBJ_109 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CBC.swift */; };
+		OBJ_111 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_112 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_119 /* CryptoTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* CryptoTypes.swift */; };
+		OBJ_125 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ArrayExtensions.swift */; };
+		OBJ_126 /* CommonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* CommonOperators.swift */; };
+		OBJ_127 /* CryptoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CryptoHelpers.swift */; };
+		OBJ_128 /* FunctionalSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* FunctionalSupport.swift */; };
+		OBJ_130 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_137 /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* AESTests.swift */; };
+		OBJ_139 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_140 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_141 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
+		OBJ_142 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AES.framework */; };
+		OBJ_152 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* AlgebraTests.swift */; };
+		OBJ_154 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_155 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_156 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
+		OBJ_165 /* FF1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* FF1Tests.swift */; };
+		OBJ_167 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_168 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_169 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
+		OBJ_170 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AES.framework */; };
+		OBJ_171 /* MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* MAC.framework */; };
+		OBJ_172 /* FF1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* FF1.framework */; };
+		OBJ_56 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AES.swift */; };
+		OBJ_57 /* AESHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AESHelpers.swift */; };
+		OBJ_58 /* AESKeySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AESKeySchedule.swift */; };
+		OBJ_59 /* AESSubRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AESSubRoutines.swift */; };
+		OBJ_61 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_62 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_63 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
+		OBJ_74 /* CommonFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CommonFields.swift */; };
+		OBJ_75 /* CommonRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CommonRings.swift */; };
+		OBJ_76 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Field.swift */; };
+		OBJ_77 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Group.swift */; };
+		OBJ_78 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Matrix.swift */; };
+		OBJ_79 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Ring.swift */; };
+		OBJ_81 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_82 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_90 /* FF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* FF1.swift */; };
+		OBJ_91 /* FF1_modified.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* FF1_modified.swift */; };
+		OBJ_92 /* FFXHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* FFXHelpers.swift */; };
+		OBJ_94 /* Types.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Types.framework */; };
+		OBJ_95 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Utils.framework */; };
+		OBJ_96 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Algebra.framework */; };
+		OBJ_97 /* AES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AES.framework */; };
+		OBJ_98 /* MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* MAC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5070D05B1E05271F00738B6F /* PBXContainerItemProxy */ = {
+		50F26F7F1E093D52004E8B78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_28;
-			remoteInfo = CuteCrytpo;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F801E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F811E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F821E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_69;
+			remoteInfo = Algebra;
+		};
+		50F26F831E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F841E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F851E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F861E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F871E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_69;
+			remoteInfo = Algebra;
+		};
+		50F26F881E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_51;
+			remoteInfo = AES;
+		};
+		50F26F891E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_104;
+			remoteInfo = MAC;
+		};
+		50F26F8A1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F8B1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F8C1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F8D1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F8E1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_69;
+			remoteInfo = Algebra;
+		};
+		50F26F8F1E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_51;
+			remoteInfo = AES;
+		};
+		50F26F901E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F911E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F921E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_69;
+			remoteInfo = Algebra;
+		};
+		50F26F931E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_65;
+			remoteInfo = Types;
+		};
+		50F26F941E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_67;
+			remoteInfo = Utils;
+		};
+		50F26F951E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_69;
+			remoteInfo = Algebra;
+		};
+		50F26F961E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_51;
+			remoteInfo = AES;
+		};
+		50F26F971E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_104;
+			remoteInfo = MAC;
+		};
+		50F26F981E093D52004E8B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_85;
+			remoteInfo = FF1;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5030B9121E08F6A8001AABA0 /* AESTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESTests.swift; sourceTree = "<group>"; };
-		5030B9151E091D29001AABA0 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
-		505995E61E05481A003243A6 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
-		5070D05D1E052AFC00738B6F /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
-		5070D05F1E052B2900738B6F /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
-		5070D0611E052B3F00738B6F /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
-		5070D0631E052B6500738B6F /* CommonRings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonRings.swift; sourceTree = "<group>"; };
-		5070D0651E052B8A00738B6F /* CommonFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFields.swift; sourceTree = "<group>"; };
-		5070D0671E052D0600738B6F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
-		50B6E1E01E09294600A4F3B9 /* AESKeySchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESKeySchedule.swift; sourceTree = "<group>"; };
-		50B6E1E21E0929A500A4F3B9 /* AESHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESHelpers.swift; sourceTree = "<group>"; };
-		50B6E1E41E092A1500A4F3B9 /* AESSubRoutines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESSubRoutines.swift; sourceTree = "<group>"; };
-		OBJ_10 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
-		OBJ_11 /* CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBC.swift; sourceTree = "<group>"; };
-		OBJ_12 /* CommonOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonOperators.swift; sourceTree = "<group>"; };
-		OBJ_13 /* CryptoHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHelpers.swift; sourceTree = "<group>"; };
-		OBJ_15 /* CryptoTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTypes.swift; sourceTree = "<group>"; };
-		OBJ_16 /* FF1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1.swift; sourceTree = "<group>"; };
-		OBJ_17 /* FF1_modified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1_modified.swift; sourceTree = "<group>"; };
-		OBJ_18 /* FFXHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXHelpers.swift; sourceTree = "<group>"; };
-		OBJ_19 /* FunctionalSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalSupport.swift; sourceTree = "<group>"; };
-		OBJ_22 /* AlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraTests.swift; sourceTree = "<group>"; };
-		OBJ_23 /* FF1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1Tests.swift; sourceTree = "<group>"; };
-		OBJ_26 /* CuteCrytpo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CuteCrytpo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_27 /* CuteCrytpoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CuteCrytpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* AESHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESHelpers.swift; sourceTree = "<group>"; };
+		OBJ_11 /* AESKeySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESKeySchedule.swift; sourceTree = "<group>"; };
+		OBJ_12 /* AESSubRoutines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESSubRoutines.swift; sourceTree = "<group>"; };
+		OBJ_14 /* CommonFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFields.swift; sourceTree = "<group>"; };
+		OBJ_15 /* CommonRings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonRings.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		OBJ_21 /* FF1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1.swift; sourceTree = "<group>"; };
+		OBJ_22 /* FF1_modified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1_modified.swift; sourceTree = "<group>"; };
+		OBJ_23 /* FFXHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXHelpers.swift; sourceTree = "<group>"; };
+		OBJ_25 /* CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBC.swift; sourceTree = "<group>"; };
+		OBJ_27 /* CryptoTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTypes.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		OBJ_30 /* CommonOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonOperators.swift; sourceTree = "<group>"; };
+		OBJ_31 /* CryptoHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHelpers.swift; sourceTree = "<group>"; };
+		OBJ_32 /* FunctionalSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalSupport.swift; sourceTree = "<group>"; };
+		OBJ_35 /* AESTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESTests.swift; sourceTree = "<group>"; };
+		OBJ_37 /* AlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraTests.swift; sourceTree = "<group>"; };
+		OBJ_39 /* FF1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF1Tests.swift; sourceTree = "<group>"; };
+		OBJ_40 /* backup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = backup; sourceTree = SOURCE_ROOT; };
+		OBJ_42 /* AES.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AES.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_43 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_44 /* FF1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FF1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_45 /* MAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_46 /* Types.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Types.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_47 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_48 /* AESTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_49 /* AlgebraTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_50 /* FF1Tests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = FF1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_44 /* Frameworks */ = {
+		OBJ_110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_111 /* Types.framework in Frameworks */,
+				OBJ_112 /* Utils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_120 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_52 /* Frameworks */ = {
+		OBJ_129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_53 /* CuteCrytpo.framework in Frameworks */,
+				OBJ_130 /* Types.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_139 /* Types.framework in Frameworks */,
+				OBJ_140 /* Utils.framework in Frameworks */,
+				OBJ_141 /* Algebra.framework in Frameworks */,
+				OBJ_142 /* AES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_154 /* Types.framework in Frameworks */,
+				OBJ_155 /* Utils.framework in Frameworks */,
+				OBJ_156 /* Algebra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_167 /* Types.framework in Frameworks */,
+				OBJ_168 /* Utils.framework in Frameworks */,
+				OBJ_169 /* Algebra.framework in Frameworks */,
+				OBJ_170 /* AES.framework in Frameworks */,
+				OBJ_171 /* MAC.framework in Frameworks */,
+				OBJ_172 /* FF1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_61 /* Types.framework in Frameworks */,
+				OBJ_62 /* Utils.framework in Frameworks */,
+				OBJ_63 /* Algebra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_81 /* Types.framework in Frameworks */,
+				OBJ_82 /* Utils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_94 /* Types.framework in Frameworks */,
+				OBJ_95 /* Utils.framework in Frameworks */,
+				OBJ_96 /* Algebra.framework in Frameworks */,
+				OBJ_97 /* AES.framework in Frameworks */,
+				OBJ_98 /* MAC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5030B9141E091D28001AABA0 /* Frameworks */ = {
+		OBJ_13 /* Algebra */ = {
 			isa = PBXGroup;
 			children = (
-				5030B9151E091D29001AABA0 /* libcommonCrypto.tbd */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		505995E51E0547E9003243A6 /* AES */ = {
-			isa = PBXGroup;
-			children = (
-				505995E61E05481A003243A6 /* AES.swift */,
-				50B6E1E01E09294600A4F3B9 /* AESKeySchedule.swift */,
-				50B6E1E21E0929A500A4F3B9 /* AESHelpers.swift */,
-				50B6E1E41E092A1500A4F3B9 /* AESSubRoutines.swift */,
-			);
-			name = AES;
-			sourceTree = "<group>";
-		};
-		5070D05C1E052AE500738B6F /* Algebra */ = {
-			isa = PBXGroup;
-			children = (
-				5070D05D1E052AFC00738B6F /* Group.swift */,
-				5070D05F1E052B2900738B6F /* Ring.swift */,
-				5070D0611E052B3F00738B6F /* Field.swift */,
-				5070D0671E052D0600738B6F /* Matrix.swift */,
-				5070D0631E052B6500738B6F /* CommonRings.swift */,
-				5070D0651E052B8A00738B6F /* CommonFields.swift */,
+				OBJ_14 /* CommonFields.swift */,
+				OBJ_15 /* CommonRings.swift */,
+				OBJ_16 /* Field.swift */,
+				OBJ_17 /* Group.swift */,
+				OBJ_18 /* Matrix.swift */,
+				OBJ_19 /* Ring.swift */,
 			);
 			name = Algebra;
-			sourceTree = "<group>";
+			path = Sources/Algebra;
+			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_20 /* Tests */ = {
+		OBJ_20 /* FF1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_21 /* CuteCrytpoTests */,
+				OBJ_21 /* FF1.swift */,
+				OBJ_22 /* FF1_modified.swift */,
+				OBJ_23 /* FFXHelpers.swift */,
+			);
+			name = FF1;
+			path = Sources/FF1;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* MAC */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* CBC.swift */,
+			);
+			name = MAC;
+			path = Sources/MAC;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* CryptoTypes.swift */,
+			);
+			name = Types;
+			path = Sources/Types;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_28 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* ArrayExtensions.swift */,
+				OBJ_30 /* CommonOperators.swift */,
+				OBJ_31 /* CryptoHelpers.swift */,
+				OBJ_32 /* FunctionalSupport.swift */,
+			);
+			name = Utils;
+			path = Sources/Utils;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_33 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* AESTests */,
+				OBJ_36 /* AlgebraTests */,
+				OBJ_38 /* FF1Tests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		OBJ_21 /* CuteCrytpoTests */ = {
+		OBJ_34 /* AESTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_22 /* AlgebraTests.swift */,
-				OBJ_23 /* FF1Tests.swift */,
-				5030B9121E08F6A8001AABA0 /* AESTests.swift */,
+				OBJ_35 /* AESTests.swift */,
 			);
-			name = CuteCrytpoTests;
-			path = Tests/CuteCrytpoTests;
+			name = AESTests;
+			path = Tests/AESTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_25 /* Products */ = {
+		OBJ_36 /* AlgebraTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_26 /* CuteCrytpo.framework */,
-				OBJ_27 /* CuteCrytpoTests.xctest */,
+				OBJ_37 /* AlgebraTests.swift */,
+			);
+			name = AlgebraTests;
+			path = Tests/AlgebraTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_38 /* FF1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* FF1Tests.swift */,
+			);
+			name = FF1Tests;
+			path = Tests/FF1Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_42 /* AES.framework */,
+				OBJ_43 /* Algebra.framework */,
+				OBJ_44 /* FF1.framework */,
+				OBJ_45 /* MAC.framework */,
+				OBJ_46 /* Types.framework */,
+				OBJ_47 /* Utils.framework */,
+				OBJ_48 /* AESTests.xctest */,
+				OBJ_49 /* AlgebraTests.xctest */,
+				OBJ_50 /* FF1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_20 /* Tests */,
-				OBJ_25 /* Products */,
-				5030B9141E091D28001AABA0 /* Frameworks */,
+				OBJ_33 /* Tests */,
+				OBJ_40 /* backup */,
+				OBJ_41 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* CuteCrytpo */,
+				OBJ_8 /* AES */,
+				OBJ_13 /* Algebra */,
+				OBJ_20 /* FF1 */,
+				OBJ_24 /* MAC */,
+				OBJ_26 /* Types */,
+				OBJ_28 /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		OBJ_8 /* CuteCrytpo */ = {
+		OBJ_8 /* AES */ = {
 			isa = PBXGroup;
 			children = (
-				505995E51E0547E9003243A6 /* AES */,
-				5070D05C1E052AE500738B6F /* Algebra */,
-				OBJ_10 /* ArrayExtensions.swift */,
-				OBJ_11 /* CBC.swift */,
-				OBJ_12 /* CommonOperators.swift */,
-				OBJ_13 /* CryptoHelpers.swift */,
-				OBJ_15 /* CryptoTypes.swift */,
-				OBJ_16 /* FF1.swift */,
-				OBJ_17 /* FF1_modified.swift */,
-				OBJ_18 /* FFXHelpers.swift */,
-				OBJ_19 /* FunctionalSupport.swift */,
+				OBJ_9 /* AES.swift */,
+				OBJ_10 /* AESHelpers.swift */,
+				OBJ_11 /* AESKeySchedule.swift */,
+				OBJ_12 /* AESSubRoutines.swift */,
 			);
-			name = CuteCrytpo;
-			path = Sources;
+			name = AES;
+			path = Sources/AES;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_28 /* CuteCrytpo */ = {
+		OBJ_104 /* MAC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_29 /* Build configuration list for PBXNativeTarget "CuteCrytpo" */;
+			buildConfigurationList = OBJ_105 /* Build configuration list for PBXNativeTarget "MAC" */;
 			buildPhases = (
-				OBJ_32 /* Sources */,
-				OBJ_44 /* Frameworks */,
+				OBJ_108 /* Sources */,
+				OBJ_110 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_113 /* PBXTargetDependency */,
+				OBJ_114 /* PBXTargetDependency */,
 			);
-			name = CuteCrytpo;
-			productName = CuteCrytpo;
-			productReference = OBJ_26 /* CuteCrytpo.framework */;
+			name = MAC;
+			productName = MAC;
+			productReference = OBJ_45 /* MAC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_45 /* CuteCrytpoTests */ = {
+		OBJ_132 /* AESTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "CuteCrytpoTests" */;
+			buildConfigurationList = OBJ_133 /* Build configuration list for PBXNativeTarget "AESTests" */;
 			buildPhases = (
-				OBJ_49 /* Sources */,
-				OBJ_52 /* Frameworks */,
+				OBJ_136 /* Sources */,
+				OBJ_138 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_54 /* PBXTargetDependency */,
+				OBJ_143 /* PBXTargetDependency */,
+				OBJ_144 /* PBXTargetDependency */,
+				OBJ_145 /* PBXTargetDependency */,
+				OBJ_146 /* PBXTargetDependency */,
 			);
-			name = CuteCrytpoTests;
-			productName = CuteCrytpoTests;
-			productReference = OBJ_27 /* CuteCrytpoTests.xctest */;
+			name = AESTests;
+			productName = AESTests;
+			productReference = OBJ_48 /* AESTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		OBJ_147 /* AlgebraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_148 /* Build configuration list for PBXNativeTarget "AlgebraTests" */;
+			buildPhases = (
+				OBJ_151 /* Sources */,
+				OBJ_153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_157 /* PBXTargetDependency */,
+				OBJ_158 /* PBXTargetDependency */,
+				OBJ_159 /* PBXTargetDependency */,
+			);
+			name = AlgebraTests;
+			productName = AlgebraTests;
+			productReference = OBJ_49 /* AlgebraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		OBJ_160 /* FF1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_161 /* Build configuration list for PBXNativeTarget "FF1Tests" */;
+			buildPhases = (
+				OBJ_164 /* Sources */,
+				OBJ_166 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_173 /* PBXTargetDependency */,
+				OBJ_174 /* PBXTargetDependency */,
+				OBJ_175 /* PBXTargetDependency */,
+				OBJ_176 /* PBXTargetDependency */,
+				OBJ_177 /* PBXTargetDependency */,
+				OBJ_178 /* PBXTargetDependency */,
+			);
+			name = FF1Tests;
+			productName = FF1Tests;
+			productReference = OBJ_50 /* FF1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		OBJ_51 /* AES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_52 /* Build configuration list for PBXNativeTarget "AES" */;
+			buildPhases = (
+				OBJ_55 /* Sources */,
+				OBJ_60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_64 /* PBXTargetDependency */,
+				OBJ_66 /* PBXTargetDependency */,
+				OBJ_68 /* PBXTargetDependency */,
+			);
+			name = AES;
+			productName = AES;
+			productReference = OBJ_42 /* AES.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_65 /* Types */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_115 /* Build configuration list for PBXNativeTarget "Types" */;
+			buildPhases = (
+				OBJ_118 /* Sources */,
+				OBJ_120 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Types;
+			productName = Types;
+			productReference = OBJ_46 /* Types.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_67 /* Utils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_121 /* Build configuration list for PBXNativeTarget "Utils" */;
+			buildPhases = (
+				OBJ_124 /* Sources */,
+				OBJ_129 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_131 /* PBXTargetDependency */,
+			);
+			name = Utils;
+			productName = Utils;
+			productReference = OBJ_47 /* Utils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_69 /* Algebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "Algebra" */;
+			buildPhases = (
+				OBJ_73 /* Sources */,
+				OBJ_80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_83 /* PBXTargetDependency */,
+				OBJ_84 /* PBXTargetDependency */,
+			);
+			name = Algebra;
+			productName = Algebra;
+			productReference = OBJ_43 /* Algebra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_85 /* FF1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_86 /* Build configuration list for PBXNativeTarget "FF1" */;
+			buildPhases = (
+				OBJ_89 /* Sources */,
+				OBJ_93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_99 /* PBXTargetDependency */,
+				OBJ_100 /* PBXTargetDependency */,
+				OBJ_101 /* PBXTargetDependency */,
+				OBJ_102 /* PBXTargetDependency */,
+				OBJ_103 /* PBXTargetDependency */,
+			);
+			name = FF1;
+			productName = FF1;
+			productReference = OBJ_44 /* FF1.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -239,65 +704,468 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_25 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_28 /* CuteCrytpo */,
-				OBJ_45 /* CuteCrytpoTests */,
+				OBJ_51 /* AES */,
+				OBJ_69 /* Algebra */,
+				OBJ_85 /* FF1 */,
+				OBJ_104 /* MAC */,
+				OBJ_65 /* Types */,
+				OBJ_67 /* Utils */,
+				OBJ_132 /* AESTests */,
+				OBJ_147 /* AlgebraTests */,
+				OBJ_160 /* FF1Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_32 /* Sources */ = {
+		OBJ_108 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				505995E71E05481A003243A6 /* AES.swift in Sources */,
-				50B6E1E31E0929A500A4F3B9 /* AESHelpers.swift in Sources */,
-				OBJ_34 /* ArrayExtensions.swift in Sources */,
-				OBJ_35 /* CBC.swift in Sources */,
-				OBJ_36 /* CommonOperators.swift in Sources */,
-				50B6E1E11E09294600A4F3B9 /* AESKeySchedule.swift in Sources */,
-				OBJ_37 /* CryptoHelpers.swift in Sources */,
-				5070D0641E052B6500738B6F /* CommonRings.swift in Sources */,
-				OBJ_39 /* CryptoTypes.swift in Sources */,
-				5070D0601E052B2900738B6F /* Ring.swift in Sources */,
-				OBJ_40 /* FF1.swift in Sources */,
-				OBJ_41 /* FF1_modified.swift in Sources */,
-				OBJ_42 /* FFXHelpers.swift in Sources */,
-				OBJ_43 /* FunctionalSupport.swift in Sources */,
-				50B6E1E51E092A1500A4F3B9 /* AESSubRoutines.swift in Sources */,
-				5070D0681E052D0600738B6F /* Matrix.swift in Sources */,
-				5070D0661E052B8A00738B6F /* CommonFields.swift in Sources */,
-				5070D0621E052B3F00738B6F /* Field.swift in Sources */,
-				5070D05E1E052AFC00738B6F /* Group.swift in Sources */,
+				OBJ_109 /* CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_49 /* Sources */ = {
+		OBJ_118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_50 /* AlgebraTests.swift in Sources */,
-				5030B9131E08F6A8001AABA0 /* AESTests.swift in Sources */,
-				OBJ_51 /* FF1Tests.swift in Sources */,
+				OBJ_119 /* CryptoTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_125 /* ArrayExtensions.swift in Sources */,
+				OBJ_126 /* CommonOperators.swift in Sources */,
+				OBJ_127 /* CryptoHelpers.swift in Sources */,
+				OBJ_128 /* FunctionalSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_137 /* AESTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_152 /* AlgebraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_165 /* FF1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_56 /* AES.swift in Sources */,
+				OBJ_57 /* AESHelpers.swift in Sources */,
+				OBJ_58 /* AESKeySchedule.swift in Sources */,
+				OBJ_59 /* AESSubRoutines.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_74 /* CommonFields.swift in Sources */,
+				OBJ_75 /* CommonRings.swift in Sources */,
+				OBJ_76 /* Field.swift in Sources */,
+				OBJ_77 /* Group.swift in Sources */,
+				OBJ_78 /* Matrix.swift in Sources */,
+				OBJ_79 /* Ring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_90 /* FF1.swift in Sources */,
+				OBJ_91 /* FF1_modified.swift in Sources */,
+				OBJ_92 /* FFXHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_54 /* PBXTargetDependency */ = {
+		OBJ_100 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_28 /* CuteCrytpo */;
-			targetProxy = 5070D05B1E05271F00738B6F /* PBXContainerItemProxy */;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F861E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_69 /* Algebra */;
+			targetProxy = 50F26F871E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_51 /* AES */;
+			targetProxy = 50F26F881E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_104 /* MAC */;
+			targetProxy = 50F26F891E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F8A1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F8B1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F811E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F8C1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F8D1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_69 /* Algebra */;
+			targetProxy = 50F26F8E1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_51 /* AES */;
+			targetProxy = 50F26F8F1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F901E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F911E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_69 /* Algebra */;
+			targetProxy = 50F26F921E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F931E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F941E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_69 /* Algebra */;
+			targetProxy = 50F26F951E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_51 /* AES */;
+			targetProxy = 50F26F961E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_104 /* MAC */;
+			targetProxy = 50F26F971E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_85 /* FF1 */;
+			targetProxy = 50F26F981E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F7F1E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F801E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_69 /* Algebra */;
+			targetProxy = 50F26F821E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F831E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_67 /* Utils */;
+			targetProxy = 50F26F841E093D52004E8B78 /* PBXContainerItemProxy */;
+		};
+		OBJ_99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_65 /* Types */;
+			targetProxy = 50F26F851E093D52004E8B78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		OBJ_106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/MAC_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MAC;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = MAC;
+			};
+			name = Debug;
+		};
+		OBJ_107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/MAC_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MAC;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = MAC;
+			};
+			name = Release;
+		};
+		OBJ_116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Types_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Types;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Types;
+			};
+			name = Debug;
+		};
+		OBJ_117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Types_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Types;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Types;
+			};
+			name = Release;
+		};
+		OBJ_122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Utils_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Utils;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Utils;
+			};
+			name = Debug;
+		};
+		OBJ_123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Utils_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Utils;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Utils;
+			};
+			name = Release;
+		};
+		OBJ_134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AESTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = AESTests;
+			};
+			name = Debug;
+		};
+		OBJ_135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AESTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = AESTests;
+			};
+			name = Release;
+		};
+		OBJ_149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AlgebraTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = AlgebraTests;
+			};
+			name = Debug;
+		};
+		OBJ_150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AlgebraTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = AlgebraTests;
+			};
+			name = Release;
+		};
+		OBJ_162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1Tests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = FF1Tests;
+			};
+			name = Debug;
+		};
+		OBJ_163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1Tests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = FF1Tests;
+			};
+			name = Release;
+		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,54 +1188,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/CuteCrytpo_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/lib/system",
-				);
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = CuteCrytpo;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = CuteCrytpo;
-			};
-			name = Debug;
-		};
-		OBJ_31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/CuteCrytpo_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/lib/system",
-				);
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = CuteCrytpo;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = CuteCrytpo;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,43 +1208,183 @@
 			};
 			name = Release;
 		};
-		OBJ_47 /* Debug */ = {
+		OBJ_53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/CuteCrytpoTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AES_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = CuteCrytpoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = AES;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = AES;
 			};
 			name = Debug;
 		};
-		OBJ_48 /* Release */ = {
+		OBJ_54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/CuteCrytpoTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AES_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = CuteCrytpoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = AES;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = AES;
+			};
+			name = Release;
+		};
+		OBJ_71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Algebra_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Algebra;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Algebra;
+			};
+			name = Debug;
+		};
+		OBJ_72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Algebra_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Algebra;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Algebra;
+			};
+			name = Release;
+		};
+		OBJ_87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FF1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = FF1;
+			};
+			name = Debug;
+		};
+		OBJ_88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FF1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = FF1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		OBJ_105 /* Build configuration list for PBXNativeTarget "MAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_106 /* Debug */,
+				OBJ_107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_115 /* Build configuration list for PBXNativeTarget "Types" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_116 /* Debug */,
+				OBJ_117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_121 /* Build configuration list for PBXNativeTarget "Utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_122 /* Debug */,
+				OBJ_123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_133 /* Build configuration list for PBXNativeTarget "AESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_134 /* Debug */,
+				OBJ_135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_148 /* Build configuration list for PBXNativeTarget "AlgebraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_149 /* Debug */,
+				OBJ_150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_161 /* Build configuration list for PBXNativeTarget "FF1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_162 /* Debug */,
+				OBJ_163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_2 /* Build configuration list for PBXProject "CuteCrytpo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -434,20 +1394,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_29 /* Build configuration list for PBXNativeTarget "CuteCrytpo" */ = {
+		OBJ_52 /* Build configuration list for PBXNativeTarget "AES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_30 /* Debug */,
-				OBJ_31 /* Release */,
+				OBJ_53 /* Debug */,
+				OBJ_54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_46 /* Build configuration list for PBXNativeTarget "CuteCrytpoTests" */ = {
+		OBJ_70 /* Build configuration list for PBXNativeTarget "Algebra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_47 /* Debug */,
-				OBJ_48 /* Release */,
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_86 /* Build configuration list for PBXNativeTarget "FF1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_87 /* Debug */,
+				OBJ_88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

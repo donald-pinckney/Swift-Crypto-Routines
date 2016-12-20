@@ -6,6 +6,8 @@
 //
 //
 
+import Types
+import Utils
 
 private func AES(_ key: ByteString, _ plainText: ByteString, Nb: Int, Nk: Int, Nr: Int) -> ByteString {
 
@@ -36,14 +38,14 @@ private func AES(_ key: ByteString, _ plainText: ByteString, Nb: Int, Nk: Int, N
     return state.transpose().data
 }
 
-func AES128(_ key: ByteString, _ plainText: ByteString) -> ByteString {
+public func AES128(_ key: ByteString, _ plainText: ByteString) -> ByteString {
     return AES(key, plainText, Nb: 4, Nk: 4, Nr: 10)
 }
 
-func AES192(_ key: ByteString, _ plainText: ByteString) -> ByteString {
+public func AES192(_ key: ByteString, _ plainText: ByteString) -> ByteString {
     return AES(key, plainText, Nb: 4, Nk: 6, Nr: 12)
 }
 
-func AES256(_ key: ByteString, _ plainText: ByteString) -> ByteString {
+public func AES256(_ key: ByteString, _ plainText: ByteString) -> ByteString {
     return AES(key, plainText, Nb: 4, Nk: 8, Nr: 14)
 }

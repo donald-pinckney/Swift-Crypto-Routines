@@ -6,7 +6,7 @@
 //
 //
 
-protocol Field: Ring {
+public protocol Field: Ring {
     // multiplicativeInverse must be that x * (x^-1) = (x^-1) * x = multiplicativeIdentity, for all x not equal to additiveIdentity
     func multiplicativeInverse(_ x: Element) -> Element
 }

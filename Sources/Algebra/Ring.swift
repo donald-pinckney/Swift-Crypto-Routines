@@ -6,7 +6,7 @@
 //
 //
 
-protocol Ring: AbelianGroup {
+public protocol Ring: AbelianGroup {
     
     // It must be that multiplicativeIdentity * x = x * multiplicativeIdentity = x, for all x.
     var multiplicativeIdentity: Element { get }
@@ -16,7 +16,7 @@ protocol Ring: AbelianGroup {
 }
 
 // Any ring has a natural definition for integer exponentiation
-extension Ring {
+public extension Ring {
     func integerExponentiate(_ x: Element, _ p: Int) -> Element {
         var y = self.multiplicativeIdentity
         for _ in 0..<p {

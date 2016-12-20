@@ -1,9 +1,13 @@
 import Foundation
 
-func FF1(blockCipher E: BlockCipher, key: ByteString, radix: Int, plainText X: [UInt], tweak T: ByteString) -> [UInt] {
+import Types
+import Utils
+import MAC
+
+public func FF1(blockCipher CIPH: BlockCipher, key: ByteString, radix: Int, plainText X: [UInt], tweak T: ByteString) -> [UInt] {
 
     // Given values
-    let AES_CBC_MAC = curryLeft(CBC_MAC, value: E)
+    let PRF = curryLeft(CBC_MAC, value: CIPH)
     let t = T.count
     let n = X.count
 
@@ -40,13 +44,13 @@ func FF1(blockCipher E: BlockCipher, key: ByteString, radix: Int, plainText X: [
                 || represent(num(B, forRadix: radix), inBytes: b) // UInt
         
         // Step 6ii.
-        let R = AES_CBC_MAC(key, P || Q)
+        let R = PRF(key, P || Q)
 
         // Step 6iii.
         let maxSblock = Int(ceil(Double(d) / 16)) - 1
         let S_whole: ByteString
         if maxSblock >= 1 {
-            let S_blocks = (1...maxSblock).map { j in AES128(key, R ^ represent(j, inBytes: 16)) }
+            let S_blocks = (1...maxSblock).map { j in CIPH(key, R ^ represent(j, inBytes: 16)) }
             S_whole = R || S_blocks.reduce([], ||)
         } else {
             S_whole = R
@@ -55,7 +59,6 @@ func FF1(blockCipher E: BlockCipher, key: ByteString, radix: Int, plainText X: [
 
         // Step 6iv.
         let y = num(S) // UInt
-//        print(y)
 
         // Step 6v.
         let m = (i % 2 == 0) ? u : v

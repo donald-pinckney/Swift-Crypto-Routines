@@ -6,9 +6,12 @@
 //
 //
 
+import Types
+import Algebra
+
 internal let AES_irreduciblePolynomial: Byte = 0x1b
 internal let AES_field = ByteField(irreduciblePolynomial: AES_irreduciblePolynomial)
-internal let AES_stateFamily = MatrixFamily(ring: AES_field)
+internal let AES_stateFamily: MatrixFamily = MatrixFamily(ring: AES_field)
 
 
 typealias Word = (Byte, Byte, Byte, Byte)

@@ -1,5 +1,6 @@
 import XCTest
-@testable import CuteCrytpo
+@testable import Algebra
+import Types
 
 class AlgebraTests: XCTestCase {
     func testFiniteField() {

@@ -6,6 +6,9 @@
 //
 //
 
+import Types
+import Algebra
+
 internal func subBytes(_ state: Matrix<ByteField>) -> Matrix<ByteField> {
     var res = state
     for i in 0..<state.width {
@@ -47,7 +50,8 @@ internal func mixColumns(_ state: Matrix<ByteField>) -> Matrix<ByteField> {
         0x01, 0x01, 0x02, 0x03,
         0x03, 0x01, 0x01, 0x02
     ]
-    let mixMatrix = Matrix(family: state.family, width: 4, data: mixData)
+    // let mixMatrix = Matrix(family: state.family, width: 4, data: mixData)
+    let mixMatrix = state.family.dataMatrix(width: 4, data: mixData)
     
     var res = state
     

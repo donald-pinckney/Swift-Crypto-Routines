@@ -6,6 +6,8 @@
 //
 //
 
+import Types
+
 private func Rcon(_ i: Int) -> Word {
     return (AES_field.integerExponentiate(0x02, i-1), 0x00, 0x00, 0x00)
 }

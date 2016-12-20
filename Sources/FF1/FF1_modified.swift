@@ -1,6 +1,10 @@
 import Foundation
 
-func FF1_modified(blockCipher CIPH: BlockCipher, key: ByteString, radix: Int, plainText X: [UInt], tweak T: ByteString) -> [UInt] {
+import Types
+import Utils
+import MAC
+
+public func FF1_modified(blockCipher CIPH: BlockCipher, key: ByteString, radix: Int, plainText X: [UInt], tweak T: ByteString) -> [UInt] {
 
     // Given values
     let PRF = curryLeft(CBC_MAC, value: CIPH)

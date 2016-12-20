@@ -1,6 +1,11 @@
 import XCTest
-@testable import CuteCrytpoTests
+@testable import AESTests
+@testable import AlgebraTests
+@testable import FF1Tests
+
 
 XCTMain([
-     testCase(CuteCrytpoTests.allTests),
+	testCase(AESTests.allTests),
+	testCase(AlgebraTests.allTests),
+	testCase(FF1Tests.allTests),
 ])

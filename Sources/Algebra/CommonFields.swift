@@ -6,19 +6,17 @@
 //
 //
 
-
-
-
-
+import Types
+import Utils
 
 // Field isomorphic to GF(p^n), with p prime.
-struct FiniteField: Field {
+public struct FiniteField: Field {
     // Represented by polynomials, with coefficients in arrays.
     // The value at index i corresponds to the coefficient for x^i.
     // Every array will have length n.
-    typealias Coefficient = IntMod.Element
-    typealias Element = [Coefficient]
-    typealias Polynomial = Element
+    public typealias Coefficient = IntMod.Element
+    public typealias Element = [Coefficient]
+    public typealias Polynomial = Element
     
     let coefficientMod: IntMod
     let irreduciblePolynomial: Polynomial
@@ -27,7 +25,7 @@ struct FiniteField: Field {
     // p MUST be prime
     // Note that n in p^n is implicit from the irreduciblePolynomial, since it must have degree n-1.
     // Implicit is that x^n = -irreduciblePolynomial
-    init(p: Int, irreduciblePolynomial: Polynomial) {
+    public init(p: Int, irreduciblePolynomial: Polynomial) {
         coefficientMod = IntMod(n: p)
         self.irreduciblePolynomial = irreduciblePolynomial
         n = irreduciblePolynomial.count
@@ -35,16 +33,16 @@ struct FiniteField: Field {
     
     
     // Group
-    var additiveIdentity: Polynomial { return Polynomial(repeating: coefficientMod.additiveIdentity, count: n) }
-    func add(_ x: Polynomial, _ y: Polynomial) -> Polynomial {
+    public var additiveIdentity: Polynomial { return Polynomial(repeating: coefficientMod.additiveIdentity, count: n) }
+    public func add(_ x: Polynomial, _ y: Polynomial) -> Polynomial {
         return componentWiseExtend(coefficientMod.add)(x, y)
     }
-    func additiveInverse(_ x: Polynomial) -> Polynomial {
+    public func additiveInverse(_ x: Polynomial) -> Polynomial {
         return x.map(coefficientMod.additiveInverse)
     }
     
     // Ring
-    var multiplicativeIdentity: Polynomial { return [coefficientMod.multiplicativeIdentity] + Polynomial(repeating: coefficientMod.additiveIdentity, count: n-1) }
+    public var multiplicativeIdentity: Polynomial { return [coefficientMod.multiplicativeIdentity] + Polynomial(repeating: coefficientMod.additiveIdentity, count: n-1) }
     
     private func cmult(_ x: Polynomial, _ c: Coefficient) -> Polynomial {
         return x.map(curryLeft(coefficientMod.multiply, value: c))
@@ -55,7 +53,7 @@ struct FiniteField: Field {
         return add(shifted, cmult(additiveInverse(irreduciblePolynomial), x.last!))
     }
     
-    func multiply(_ px: Polynomial, _ qx: Polynomial) -> Polynomial {
+    public func multiply(_ px: Polynomial, _ qx: Polynomial) -> Polynomial {
         // Compute x^k * px
         var xMults: [Polynomial] = [px]
         for _ in 1..<n {
@@ -70,39 +68,39 @@ struct FiniteField: Field {
     }
     
     
-    func equal(lhs: [Coefficient], rhs: [Coefficient]) -> Bool {
+    public func equal(lhs: [Coefficient], rhs: [Coefficient]) -> Bool {
         return lhs == rhs
     }
     
-    func multiplicativeInverse(_ x: [Coefficient]) -> [Coefficient] {
+    public func multiplicativeInverse(_ x: [Coefficient]) -> [Coefficient] {
         fatalError("Implement me!")
     }
 }
 
 
 // Field isomorphic to GF(2^8), but optimized to be implemented with bytes.
-class ByteField: Field {
-    typealias Element = Byte
+public class ByteField: Field {
+    public typealias Element = Byte
     
     let irreduciblePolynomial: Byte
     
-    init(irreduciblePolynomial: Byte) {
+    public init(irreduciblePolynomial: Byte) {
         self.irreduciblePolynomial = irreduciblePolynomial
     }
     
     
     // Group
-    var additiveIdentity: Byte { return 0x00 }
-    func add(_ x: Byte, _ y: Byte) -> Byte {
+    public var additiveIdentity: Byte { return 0x00 }
+    public func add(_ x: Byte, _ y: Byte) -> Byte {
         return x ^ y
         
     }
-    func additiveInverse(_ x: Byte) -> Byte {
+    public func additiveInverse(_ x: Byte) -> Byte {
         return x
     }
     
     // Ring
-    var multiplicativeIdentity: Byte { return 0x01 }
+    public var multiplicativeIdentity: Byte { return 0x01 }
     
     
     private func xmult(_ x: Byte) -> Byte {
@@ -116,7 +114,7 @@ class ByteField: Field {
         return result
     }
     
-    func multiply(_ px: Byte, _ qx: Byte) -> Byte {
+    public func multiply(_ px: Byte, _ qx: Byte) -> Byte {
         var px = px
         var qx = qx
         
@@ -134,7 +132,7 @@ class ByteField: Field {
     }
     
     private var inverseTable: [Byte] = Array(repeating: 0x00, count: 256)
-    func multiplicativeInverse(_ x: Byte) -> Byte {
+    public func multiplicativeInverse(_ x: Byte) -> Byte {
         let idx = Int(x)
         if inverseTable[idx] != 0 {
             return inverseTable[idx]

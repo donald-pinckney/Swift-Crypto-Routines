@@ -1,4 +1,7 @@
-func CBC_MAC(E: BlockCipher, key: ByteString, X: ByteString) -> ByteString {
+import Types
+import Utils
+
+public func CBC_MAC(E: BlockCipher, key: ByteString, X: ByteString) -> ByteString {
     
     let m = UInt(X.count) / 16 // 16 bytes per block
     

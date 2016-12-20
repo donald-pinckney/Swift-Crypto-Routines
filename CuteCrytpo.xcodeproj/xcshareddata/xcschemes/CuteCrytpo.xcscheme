@@ -14,9 +14,79 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_28"
-               BuildableName = "CuteCrytpo.framework"
-               BlueprintName = "CuteCrytpo"
+               BlueprintIdentifier = "OBJ_51"
+               BuildableName = "AES.framework"
+               BlueprintName = "AES"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_69"
+               BuildableName = "Algebra.framework"
+               BlueprintName = "Algebra"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_85"
+               BuildableName = "FF1.framework"
+               BlueprintName = "FF1"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_104"
+               BuildableName = "MAC.framework"
+               BlueprintName = "MAC"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_65"
+               BuildableName = "Types.framework"
+               BlueprintName = "Types"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_67"
+               BuildableName = "Utils.framework"
+               BlueprintName = "Utils"
                ReferencedContainer = "container:CuteCrytpo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,15 +96,36 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_45"
-               BuildableName = "CuteCrytpoTests.xctest"
-               BlueprintName = "CuteCrytpoTests"
+               BlueprintIdentifier = "OBJ_132"
+               BuildableName = "AESTests.xctest"
+               BlueprintName = "AESTests"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_147"
+               BuildableName = "AlgebraTests.xctest"
+               BlueprintName = "AlgebraTests"
+               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_160"
+               BuildableName = "FF1Tests.xctest"
+               BlueprintName = "FF1Tests"
                ReferencedContainer = "container:CuteCrytpo.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,9 +146,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_28"
-            BuildableName = "CuteCrytpo.framework"
-            BlueprintName = "CuteCrytpo"
+            BlueprintIdentifier = "OBJ_51"
+            BuildableName = "AES.framework"
+            BlueprintName = "AES"
             ReferencedContainer = "container:CuteCrytpo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

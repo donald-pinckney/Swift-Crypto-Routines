@@ -1,4 +1,5 @@
 import Foundation
+import Types
 
 private func represent(_ x: UInt, inBytes: UInt) -> ByteString {
     let mask1: UInt = 0xFF00000000000000
@@ -18,17 +19,13 @@ private func represent(_ x: UInt, inBytes: UInt) -> ByteString {
     return bytes
 }
 
-// func represent(_ x: Int, inBytes: UInt) -> ByteString {
-//     precondition(x >= 0)
-//     return represent(UInt(x), inBytes: inBytes)
-// }
 
-func represent(_ x: Int, inBytes: Int) -> ByteString {
+public func represent(_ x: Int, inBytes: Int) -> ByteString {
     precondition(x >= 0 && inBytes >= 0)
     return represent(UInt(x), inBytes: UInt(inBytes))
 }
 
-func represent(_ x: UInt, inBytes: Int) -> ByteString {
+public func represent(_ x: UInt, inBytes: Int) -> ByteString {
     precondition(inBytes >= 0)
     return represent(x, inBytes: UInt(inBytes))
 }
@@ -38,7 +35,7 @@ func represent(_ x: UInt, inBytes: Int) -> ByteString {
 
 
 
-func num(_ X: ByteString) -> UInt {
+public func num(_ X: ByteString) -> UInt {
     var sum: UInt = 0
     for x in X {
         sum = 256*sum + UInt(x)
@@ -50,7 +47,7 @@ func num(_ X: ByteString) -> UInt {
 
 
 // Fixed positive mod function
-func mod(_ x: Int, _ m: UInt) -> Int {
+public func mod(_ x: Int, _ m: UInt) -> Int {
     let md = x % Int(m)
     if md >= 0 {
         return md
@@ -60,15 +57,13 @@ func mod(_ x: Int, _ m: UInt) -> Int {
 }
 
 
-// func mod(_ x: UInt, _ m: UInt) -> UInt {
-//     return x % m
-// }
 
-func log2(_ x: UInt) -> Double {
+
+public func log2(_ x: UInt) -> Double {
     return log2(Double(x))
 }
 
-func log2(_ x: Int) -> Double {
+public func log2(_ x: Int) -> Double {
     precondition(x >= 0)
     return log2(UInt(x))
 }

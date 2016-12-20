@@ -1,23 +1,7 @@
 import XCTest
-@testable import CuteCrytpo
-//import CommonCrypto
-
-
-//func AES128t(_ key: ByteString, _ plainText: ByteString) -> ByteString {
-//     let blockSizeBytes = size_t(16)
-//     var cipherText = ByteString(repeating: 0, count: plainText.count)
-//
-//     var dataOutMoved = 0
-//     let err = CCCrypt(CCOperation(kCCEncrypt), CCAlgorithm(kCCAlgorithmAES), 0,
-//                       key, blockSizeBytes, nil,
-//                       plainText, blockSizeBytes,
-//                       &cipherText, blockSizeBytes, &dataOutMoved)
-//
-//     if err != 0 || dataOutMoved != blockSizeBytes {
-//         fatalError("Error with AES: \(err)")
-//     }
-//     return cipherText
-//}
+@testable import FF1
+import Types
+import AES
 
 class FF1Tests: XCTestCase {
     func testFF1() {

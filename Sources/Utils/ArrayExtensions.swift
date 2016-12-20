@@ -1,10 +1,10 @@
-extension Array {
+public extension Array {
     static func ||(left: Array, right: Array) -> Array {
         return left + right
     }
 }
 
-extension ArraySlice {
+public extension ArraySlice {
     static func ||(left: ArraySlice, right: ArraySlice) -> ArraySlice {
         return left + right
     }
