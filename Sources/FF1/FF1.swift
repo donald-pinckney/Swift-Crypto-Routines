@@ -4,6 +4,11 @@ import Types
 import Utils
 import MAC
 
+/*
+ An implementation of the FF1 mode of using a block cipher to achieve format preserving encryption.
+ See the specification at: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38G.pdf
+ */
+
 public func FF1(blockCipher CIPH: BlockCipher, key: ByteString, radix: Int, plainText X: [UInt], tweak T: ByteString) -> [UInt] {
 
     // Given values

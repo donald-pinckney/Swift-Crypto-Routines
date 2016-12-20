@@ -6,6 +6,12 @@
 //
 //
 
+/*
+ An implementation of the AES blockcipher. All variants (AES-128, AES-192, AES-256) are implemented.
+ In addition, variants NOT approved by NIST are also implemented, by changing parameters Nb (block size), Nk (key size), Nr (number of rounds).
+ See the specification at: http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf
+ */
+
 import Types
 import Utils
 
