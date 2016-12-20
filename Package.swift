@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CuteCrytpo",
+    name: "Swift Crypto Routines",
     targets: [
         Target(name: "Types", dependencies: []),
         Target(name: "Utils", dependencies: ["Types"]),

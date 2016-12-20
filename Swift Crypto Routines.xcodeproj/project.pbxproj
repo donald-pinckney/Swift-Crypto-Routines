@@ -58,182 +58,182 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		50826C381E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A421E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C391E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A431E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C3A1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A441E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C3B1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A451E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50826C3C1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A461E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C3D1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A471E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C3E1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A481E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C3F1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A491E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C401E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A4A1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50826C411E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A4B1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_50;
 			remoteInfo = AES;
 		};
-		50826C421E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A4C1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_103;
 			remoteInfo = MAC;
 		};
-		50826C431E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A4D1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C441E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A4E1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C451E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A4F1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C461E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A501E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C471E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A511E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50826C481E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A521E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_50;
 			remoteInfo = AES;
 		};
-		50826C491E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A531E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C4A1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A541E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C4B1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A551E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50826C4C1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A561E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Types;
 		};
-		50826C4D1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A571E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_66;
 			remoteInfo = Utils;
 		};
-		50826C4E1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A581E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Algebra;
 		};
-		50826C4F1E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A591E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_50;
 			remoteInfo = AES;
 		};
-		50826C501E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A5A1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_103;
 			remoteInfo = MAC;
 		};
-		50826C511E093E0300A30478 /* PBXContainerItemProxy */ = {
+		501E8A5B1E0946CD0027EEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -695,7 +695,7 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CuteCrytpo" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Swift Crypto Routines" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -812,132 +812,132 @@
 		OBJ_100 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_68 /* Algebra */;
-			targetProxy = 50826C401E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A4A1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_101 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_50 /* AES */;
-			targetProxy = 50826C411E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A4B1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_102 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_103 /* MAC */;
-			targetProxy = 50826C421E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A4C1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C431E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A4D1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C441E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A4E1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C3A1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A441E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_142 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C451E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A4F1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C461E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A501E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_68 /* Algebra */;
-			targetProxy = 50826C471E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A511E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_50 /* AES */;
-			targetProxy = 50826C481E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A521E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_156 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C491E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A531E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_157 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C4A1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A541E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_158 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_68 /* Algebra */;
-			targetProxy = 50826C4B1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A551E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C4C1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A561E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_173 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C4D1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A571E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_68 /* Algebra */;
-			targetProxy = 50826C4E1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A581E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_50 /* AES */;
-			targetProxy = 50826C4F1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A591E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_176 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_103 /* MAC */;
-			targetProxy = 50826C501E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A5A1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_84 /* FF1 */;
-			targetProxy = 50826C511E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A5B1E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C381E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A421E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C391E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A431E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_68 /* Algebra */;
-			targetProxy = 50826C3B1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A451E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C3C1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A461E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C3D1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A471E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Types */;
-			targetProxy = 50826C3E1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A481E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 		OBJ_99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_66 /* Utils */;
-			targetProxy = 50826C3F1E093E0300A30478 /* PBXContainerItemProxy */;
+			targetProxy = 501E8A491E0946CD0027EEAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -951,7 +951,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/MAC_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/MAC_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -971,7 +971,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/MAC_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/MAC_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -991,7 +991,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Types_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/Types_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1011,7 +1011,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Types_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/Types_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1031,7 +1031,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Utils_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/Utils_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1051,7 +1051,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Utils_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/Utils_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1071,7 +1071,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AESTests_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/AESTests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1088,7 +1088,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AESTests_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/AESTests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1105,7 +1105,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AlgebraTests_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/AlgebraTests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1122,7 +1122,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AlgebraTests_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/AlgebraTests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1139,7 +1139,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1Tests_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/FF1Tests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1156,7 +1156,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1Tests_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/FF1Tests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1215,7 +1215,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AES_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/AES_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1235,7 +1235,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/AES_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/AES_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1255,7 +1255,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Algebra_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/Algebra_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1275,7 +1275,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/Algebra_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/Algebra_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1295,7 +1295,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/FF1_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1315,7 +1315,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CuteCrytpo.xcodeproj/FF1_Info.plist;
+				INFOPLIST_FILE = "Swift Crypto Routines.xcodeproj/FF1_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1383,7 +1383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "CuteCrytpo" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Swift Crypto Routines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,

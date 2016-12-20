@@ -17,7 +17,7 @@
                BlueprintIdentifier = "OBJ_50"
                BuildableName = "AES.framework"
                BlueprintName = "AES"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "OBJ_68"
                BuildableName = "Algebra.framework"
                BlueprintName = "Algebra"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "OBJ_84"
                BuildableName = "FF1.framework"
                BlueprintName = "FF1"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -59,7 +59,7 @@
                BlueprintIdentifier = "OBJ_103"
                BuildableName = "MAC.framework"
                BlueprintName = "MAC"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -73,7 +73,7 @@
                BlueprintIdentifier = "OBJ_64"
                BuildableName = "Types.framework"
                BlueprintName = "Types"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -87,7 +87,7 @@
                BlueprintIdentifier = "OBJ_66"
                BuildableName = "Utils.framework"
                BlueprintName = "Utils"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -106,7 +106,7 @@
                BlueprintIdentifier = "OBJ_131"
                BuildableName = "AESTests.xctest"
                BlueprintName = "AESTests"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -116,7 +116,7 @@
                BlueprintIdentifier = "OBJ_146"
                BuildableName = "AlgebraTests.xctest"
                BlueprintName = "AlgebraTests"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -126,7 +126,7 @@
                BlueprintIdentifier = "OBJ_159"
                BuildableName = "FF1Tests.xctest"
                BlueprintName = "FF1Tests"
-               ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+               ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -149,7 +149,7 @@
             BlueprintIdentifier = "OBJ_50"
             BuildableName = "AES.framework"
             BlueprintName = "AES"
-            ReferencedContainer = "container:CuteCrytpo.xcodeproj">
+            ReferencedContainer = "container:Swift Crypto Routines.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
