@@ -11,3 +11,12 @@ Please peruse the collection of implemented routines, and their linked specifica
 
 ## Encryption Schemes
 - [FF1](https://github.com/donald-pinckney/Swift-Crypto-Routines/blob/master/Sources/FF1/FF1.swift): A [format-preserving encryption scheme](https://en.wikipedia.org/wiki/Format-preserving_encryption). [PDF Specification](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38G.pdf)
+
+
+# How to Use
+If you want to see a demo of this working, just clone the repository, open the project with Xcode, and run the unit tests.
+
+To use this in a project, just add it to your `Package.swift` file:
+```swift
+.Package(url: "https://github.com/donald-pinckney/Swift-Crypto-Routines", Version(1, 0, 1))
+```
